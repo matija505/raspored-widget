@@ -1,0 +1,31 @@
+name: Ažuriraj raspored
+
+on:
+  schedule:
+    # UTC vrijeme (Zagreb = UTC+1 zimi, UTC+2 ljeti). GitHub zna kasniti 5-20 min.
+    - cron: "*/15 4-19 * * 1-5"   # radni dan, svakih 15 min
+    - cron: "0 15-21 * * 0"       # nedjelja popodne/navečer, za ponedjeljak
+  workflow_dispatch:              # ručno pokretanje iz Actions taba
+
+permissions:
+  contents: write
+
+concurrency:
+  group: raspored
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python widget.py
+      - name: Commit ako ima promjena
+        run: |
+          git config user.name "raspored-bot"
+          git config user.email "raspored-bot@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet || (git commit -m "Raspored $(date -u +%F' '%H:%M)" && git push)

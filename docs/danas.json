@@ -1,0 +1,222 @@
+{
+ "dolazak": "9:10",
+ "kraj": "15:10",
+ "datum": "2026-10-26",
+ "dan": "Ponedjeljak",
+ "datum_kratko": "PON 26.10.",
+ "smjena": "ujutro",
+ "izmjene_objavljene": true,
+ "broj_izmjena": 1,
+ "cijeli_dan": null,
+ "skraceni_sati": false,
+ "sati": [
+  {
+   "sat": 1,
+   "od": "7:30",
+   "do": "8:15",
+   "predmet": null,
+   "izvorno": null,
+   "izmjena": false,
+   "otpada": false,
+   "ucionica": null,
+   "izvorna_kratica": null
+  },
+  {
+   "sat": 2,
+   "od": "8:20",
+   "do": "9:05",
+   "predmet": null,
+   "izvorno": "Operacijski sust.",
+   "izmjena": true,
+   "otpada": true,
+   "ucionica": null,
+   "izvorna_kratica": "OS"
+  },
+  {
+   "sat": 3,
+   "od": "9:10",
+   "do": "9:55",
+   "predmet": "Sat razrednika",
+   "izvorno": "Sat razrednika",
+   "izmjena": false,
+   "otpada": false,
+   "ucionica": null,
+   "izvorna_kratica": "SR"
+  },
+  {
+   "sat": 4,
+   "od": "10:15",
+   "do": "11:00",
+   "predmet": "Građa računala",
+   "izvorno": "Građa računala",
+   "izmjena": false,
+   "otpada": false,
+   "ucionica": null,
+   "izvorna_kratica": "GR"
+  },
+  {
+   "sat": 5,
+   "od": "11:05",
+   "do": "11:50",
+   "predmet": null,
+   "izvorno": null,
+   "izmjena": false,
+   "otpada": false,
+   "ucionica": null,
+   "izvorna_kratica": null
+  },
+  {
+   "sat": 6,
+   "od": "11:55",
+   "do": "12:40",
+   "predmet": null,
+   "izvorno": null,
+   "izmjena": false,
+   "otpada": false,
+   "ucionica": null,
+   "izvorna_kratica": null
+  },
+  {
+   "sat": 7,
+   "od": "12:45",
+   "do": "13:30",
+   "predmet": "Matematika",
+   "izvorno": "Matematika",
+   "izmjena": false,
+   "otpada": false,
+   "ucionica": null,
+   "izvorna_kratica": "MAT"
+  },
+  {
+   "sat": 8,
+   "od": "13:35",
+   "do": "14:20",
+   "predmet": "Fizika",
+   "izvorno": "Fizika",
+   "izmjena": false,
+   "otpada": false,
+   "ucionica": "116",
+   "izvorna_kratica": "FIZ"
+  },
+  {
+   "sat": 9,
+   "od": "14:25",
+   "do": "15:10",
+   "predmet": "Vjeronauk",
+   "izvorno": "Vjeronauk",
+   "izmjena": false,
+   "otpada": false,
+   "ucionica": "116",
+   "izvorna_kratica": "V"
+  }
+ ],
+ "tekst": "PON 26.10. · ujutro · 1 izmj.\ndolazak 9:10 · kraj 15:10\n1.  7:30  ---\n2.  8:20  --- - OS\n3.  9:10  Sat razrednika\n4. 10:15  Građa računala\n5. 11:05  ---\n6. 11:55  ---\n7. 12:45  Matematika\n8. 13:35  Fizika · uč. 116\n9. 14:25  Vjeronauk · uč. 116",
+ "tekst_kwgt": "[b]PON 26.10. · ujutro · [c=#FF5252]1 izmj.[/c][/b]\ndolazak 9:10 · kraj 15:10\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  [c=#FF5252]--- - OS[/c]\n3.  9:10  Sat razrednika\n4. 10:15  Građa računala\n5. 11:05  [c=#8A8A8A]---[/c]\n6. 11:55  [c=#8A8A8A]---[/c]\n7. 12:45  Matematika\n8. 13:35  Fizika · uč. 116\n9. 14:25  Vjeronauk · uč. 116",
+ "sljedeci": {
+  "dolazak": "7:30",
+  "kraj": "13:40",
+  "datum": "2026-10-27",
+  "dan": "Utorak",
+  "datum_kratko": "UTO 27.10.",
+  "smjena": "ujutro",
+  "izmjene_objavljene": true,
+  "broj_izmjena": 2,
+  "cijeli_dan": null,
+  "skraceni_sati": true,
+  "sati": [
+   {
+    "sat": 1,
+    "od": "7:30",
+    "do": "8:10",
+    "predmet": "Sat razrednika",
+    "izvorno": "Matematika",
+    "izmjena": true,
+    "otpada": false,
+    "ucionica": null,
+    "izvorna_kratica": "MAT"
+   },
+   {
+    "sat": 2,
+    "od": "8:15",
+    "do": "8:55",
+    "predmet": "Matematika",
+    "izvorno": "Operacijski sust.",
+    "izmjena": true,
+    "otpada": false,
+    "ucionica": null,
+    "izvorna_kratica": "OS"
+   },
+   {
+    "sat": 3,
+    "od": "9:00",
+    "do": "9:40",
+    "predmet": "Hrvatski",
+    "izvorno": "Hrvatski",
+    "izmjena": false,
+    "otpada": false,
+    "ucionica": null,
+    "izvorna_kratica": "HRV"
+   },
+   {
+    "sat": 4,
+    "od": "10:00",
+    "do": "10:40",
+    "predmet": "TZK",
+    "izvorno": "TZK",
+    "izmjena": false,
+    "otpada": false,
+    "ucionica": null,
+    "izvorna_kratica": "TZK"
+   },
+   {
+    "sat": 5,
+    "od": "10:45",
+    "do": "11:25",
+    "predmet": "TZK",
+    "izvorno": "TZK",
+    "izmjena": false,
+    "otpada": false,
+    "ucionica": null,
+    "izvorna_kratica": "TZK"
+   },
+   {
+    "sat": 6,
+    "od": "11:30",
+    "do": "12:10",
+    "predmet": "Engleski",
+    "izvorno": "Engleski",
+    "izmjena": false,
+    "otpada": false,
+    "ucionica": null,
+    "izvorna_kratica": "ENG"
+   },
+   {
+    "sat": 7,
+    "od": "12:15",
+    "do": "12:55",
+    "predmet": "Multimedija",
+    "izvorno": "Multimedija",
+    "izmjena": false,
+    "otpada": false,
+    "ucionica": null,
+    "izvorna_kratica": "MM"
+   },
+   {
+    "sat": 8,
+    "od": "13:00",
+    "do": "13:40",
+    "predmet": "Multimedija",
+    "izvorno": "Multimedija",
+    "izmjena": false,
+    "otpada": false,
+    "ucionica": null,
+    "izvorna_kratica": "MM"
+   }
+  ],
+  "tekst": "UTO 27.10. · ujutro · 2 izmj. · skraćeni sati\ndolazak 7:30 · kraj 13:40\n1.  7:30  Sat razrednika - MAT\n2.  8:15  Matematika - OS\n3.  9:00  Hrvatski\n4. 10:00  TZK\n5. 10:45  TZK\n6. 11:30  Engleski\n7. 12:15  Multimedija\n8. 13:00  Multimedija",
+  "tekst_kwgt": "[b]UTO 27.10. · ujutro · [c=#FF5252]2 izmj.[/c] · [c=#FFB300]skraćeni sati[/c][/b]\ndolazak 7:30 · kraj 13:40\n1.  7:30  Sat razrednika [c=#FF5252]- MAT[/c]\n2.  8:15  Matematika [c=#FF5252]- OS[/c]\n3.  9:00  Hrvatski\n4. 10:00  TZK\n5. 10:45  TZK\n6. 11:30  Engleski\n7. 12:15  Multimedija\n8. 13:00  Multimedija"
+ },
+ "oba_kwgt": "[b]PON 26.10. · ujutro · [c=#FF5252]1 izmj.[/c][/b]\ndolazak 9:10 · kraj 15:10\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  [c=#FF5252]--- - OS[/c]\n3.  9:10  Sat razrednika\n4. 10:15  Građa računala\n5. 11:05  [c=#8A8A8A]---[/c]\n6. 11:55  [c=#8A8A8A]---[/c]\n7. 12:45  Matematika\n8. 13:35  Fizika · uč. 116\n9. 14:25  Vjeronauk · uč. 116\n\n[b]UTO 27.10. · ujutro · [c=#FF5252]2 izmj.[/c] · [c=#FFB300]skraćeni sati[/c][/b]\ndolazak 7:30 · kraj 13:40\n1.  7:30  Sat razrednika [c=#FF5252]- MAT[/c]\n2.  8:15  Matematika [c=#FF5252]- OS[/c]\n3.  9:00  Hrvatski\n4. 10:00  TZK\n5. 10:45  TZK\n6. 11:30  Engleski\n7. 12:15  Multimedija\n8. 13:00  Multimedija",
+ "greska": null,
+ "azurirano": "26.10. 06:00"
+}

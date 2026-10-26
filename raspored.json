@@ -1,0 +1,60 @@
+{
+  "razred": "3.G",
+  "izmjene_stranica": "https://www.tsrb.hr/b-smjena/",
+
+  "_smjena": "Tjedan koji počinje s 'referentni_ponedjeljak' je 'referentna_smjena', zatim se izmjenjuju svaki tjedan. Ako se ritam poremeti (praznici), dodaj iznimku u 'smjena_iznimke' kao \"YYYY-MM-DD (ponedjeljak tog tjedna)\": \"ujutro\"/\"popodne\".",
+  "referentni_ponedjeljak": "2026-10-26",
+  "referentna_smjena": "ujutro",
+  "smjena_iznimke": {},
+
+  "_zvono": "Normalna satnica: 45 min sat, 5 min odmor, 20 min nakon 3. sata. Ako u Google Docu postoji 'RASPORED OGLAŠAVANJA ZVONA' za taj dan, koristi se ta.",
+  "zvono": {
+    "ujutro": {
+      "1": ["7:30", "8:15"], "2": ["8:20", "9:05"], "3": ["9:10", "9:55"],
+      "4": ["10:15", "11:00"], "5": ["11:05", "11:50"], "6": ["11:55", "12:40"],
+      "7": ["12:45", "13:30"], "8": ["13:35", "14:20"], "9": ["14:25", "15:10"]
+    },
+    "popodne": {
+      "0": ["12:45", "13:30"], "1": ["13:35", "14:20"], "2": ["14:25", "15:10"],
+      "3": ["15:15", "16:00"], "4": ["16:20", "17:05"], "5": ["17:10", "17:55"],
+      "6": ["18:00", "18:45"], "7": ["18:50", "19:35"]
+    }
+  },
+
+  "raspored": {
+    "ujutro": {
+      "PON": {"2": "Operacijski sustavi", "3": "Sat razrednika", "4": "Građa računala", "7": "Matematika", "8": "Fizika", "9": "Vjeronauk"},
+      "UTO": {"1": "Matematika", "2": "Operacijski sustavi", "3": "Hrvatski jezik", "4": "Tjelesna i zdravstvena kultura", "5": "Tjelesna i zdravstvena kultura", "6": "Engleski jezik I", "7": "Multimedija (izborni)", "8": "Multimedija (izborni)"},
+      "SRI": {"2": "Građa računala", "3": "Engleski jezik I", "4": "Hrvatski jezik", "5": "Računalne mreže", "6": "Računalne mreže", "7": "Mikroupravljači", "8": "Mikroupravljači"},
+      "ČET": {"3": "Engleski jezik I", "4": "Dizajn baza podataka", "5": "Dizajn baza podataka", "6": "Engleski jezik I", "7": "Fizika", "8": "Fizika"},
+      "PET": {"1": "Matematika", "2": "Građa računala", "3": "Skriptni jezici i web programiranje", "4": "Skriptni jezici i web programiranje", "5": "Napredno i objektno programiranje (izborni)", "6": "Napredno i objektno programiranje (izborni)"}
+    },
+    "popodne": {
+      "PON": {"0": "Fizika", "1": "Fizika", "2": "Dizajn baza podataka", "3": "Dizajn baza podataka", "4": "Građa računala", "5": "Građa računala", "6": "Vjeronauk"},
+      "UTO": {"0": "Napredno i objektno programiranje (izborni)", "1": "Napredno i objektno programiranje (izborni)", "2": "Matematika", "3": "Matematika", "4": "Operacijski sustavi", "5": "Operacijski sustavi", "6": "Hrvatski jezik", "7": "Engleski jezik I"},
+      "SRI": {"0": "Primijenjena matematika (izborni)", "1": "Primijenjena matematika (izborni)", "2": "Mikroupravljači", "3": "Mikroupravljači", "4": "Hrvatski jezik", "5": "Engleski jezik I", "6": "Matematika"},
+      "ČET": {"0": "Skriptni jezici i web programiranje", "1": "Skriptni jezici i web programiranje", "2": "Računalne mreže", "3": "Tjelesna i zdravstvena kultura", "4": "Tjelesna i zdravstvena kultura", "5": "Hrvatski jezik", "6": "Sat razrednika", "7": "Engleski jezik I"},
+      "PET": {"1": "Multimedija (izborni)", "2": "Multimedija (izborni)", "4": "Računalne mreže", "5": "Građa računala"}
+    }
+  },
+
+  "_kratice": "Kratki nazivi za widget. Ključevi su i kratice koje škola koristi u izmjenama (MAT, HRV, ...).",
+  "kratko": {
+    "Operacijski sustavi": "Operacijski sust.",
+    "Tjelesna i zdravstvena kultura": "TZK",
+    "Skriptni jezici i web programiranje": "Skriptni i web",
+    "Napredno i objektno programiranje (izborni)": "Objektno prog.",
+    "Primijenjena matematika (izborni)": "Primij. matem.",
+    "Multimedija (izborni)": "Multimedija",
+    "Dizajn baza podataka": "Baze podataka",
+    "Engleski jezik I": "Engleski",
+    "Hrvatski jezik": "Hrvatski"
+  },
+  "kratice_skole": {
+    "MAT": "Matematika", "HRV": "Hrvatski", "ENG": "Engleski", "FIZ": "Fizika",
+    "V": "Vjeronauk", "SR": "Sat razrednika", "TZK": "TZK", "OS": "Operacijski sust.",
+    "GR": "Građa računala", "RM": "Računalne mreže", "DBP": "Baze podataka",
+    "MIK": "Mikroupravljači", "MM": "Multimedija", "SJWP": "Skriptni i web",
+    "NOOP": "Objektno prog.", "PM": "Primij. matem."
+  }
+}
