@@ -99,8 +99,8 @@
    "izvorna_kratica": "MM"
   }
  ],
- "tekst": "UTO 27.10. · ujutro · 2 izmj. · skraćeni sati\ndolazak 7:30 · kraj 13:40\n1.  7:30  Sat razrednika - MAT\n2.  8:15  Matematika - OS\n3.  9:00  Hrvatski\n4. 10:00  TZK\n5. 10:45  TZK\n6. 11:30  Engleski\n7. 12:15  Multimedija\n8. 13:00  Multimedija",
- "tekst_kwgt": "[b]UTO 27.10. · ujutro · [c=#FF5252]2 izmj.[/c] · [c=#FFB300]skraćeni sati[/c][/b]\ndolazak 7:30 · kraj 13:40\n1.  7:30  Sat razrednika [c=#FF5252]- MAT[/c]\n2.  8:15  Matematika [c=#FF5252]- OS[/c]\n3.  9:00  Hrvatski\n4. 10:00  TZK\n5. 10:45  TZK\n6. 11:30  Engleski\n7. 12:15  Multimedija\n8. 13:00  Multimedija",
+ "tekst": "UTO 27.10. · ujutro · 2 izmj. · skraćeni sati\ndolazak 7:30 · kraj 13:40\n1.  7:30  Sat razrednika - M̶A̶T̶\n2.  8:15  Matematika - O̶S̶\n3.  9:00  Hrvatski\n4. 10:00  TZK\n5. 10:45  TZK\n6. 11:30  Engleski\n7. 12:15  Multimedija\n8. 13:00  Multimedija",
+ "tekst_kwgt": "[b]UTO 27.10. · ujutro · [c=#FF5252]2 izmj.[/c] · [c=#FFB300]skraćeni sati[/c][/b]\ndolazak 7:30 · kraj 13:40\n1.  7:30  Sat razrednika [c=#FF5252]- [s]MAT[/s][/c]\n2.  8:15  Matematika [c=#FF5252]- [s]OS[/s][/c]\n3.  9:00  Hrvatski\n4. 10:00  TZK\n5. 10:45  TZK\n6. 11:30  Engleski\n7. 12:15  Multimedija\n8. 13:00  Multimedija",
  "sljedeci": {
   "dolazak": "8:20",
   "kraj": "14:20",
@@ -205,7 +205,7 @@
   "tekst": "SRI 28.10. · ujutro · izmjene još nisu objavljene\ndolazak 8:20 · kraj 14:20\n1.  7:30  ---\n2.  8:20  Građa računala\n3.  9:10  Engleski\n4. 10:15  Hrvatski\n5. 11:05  Računalne mreže\n6. 11:55  Računalne mreže\n7. 12:45  Mikroupravljači\n8. 13:35  Mikroupravljači",
   "tekst_kwgt": "[b]SRI 28.10. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 8:20 · kraj 14:20\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  Građa računala\n3.  9:10  Engleski\n4. 10:15  Hrvatski\n5. 11:05  Računalne mreže\n6. 11:55  Računalne mreže\n7. 12:45  Mikroupravljači\n8. 13:35  Mikroupravljači"
  },
- "oba_kwgt": "[b]UTO 27.10. · ujutro · [c=#FF5252]2 izmj.[/c] · [c=#FFB300]skraćeni sati[/c][/b]\ndolazak 7:30 · kraj 13:40\n1.  7:30  Sat razrednika [c=#FF5252]- MAT[/c]\n2.  8:15  Matematika [c=#FF5252]- OS[/c]\n3.  9:00  Hrvatski\n4. 10:00  TZK\n5. 10:45  TZK\n6. 11:30  Engleski\n7. 12:15  Multimedija\n8. 13:00  Multimedija\n\n[b]SRI 28.10. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 8:20 · kraj 14:20\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  Građa računala\n3.  9:10  Engleski\n4. 10:15  Hrvatski\n5. 11:05  Računalne mreže\n6. 11:55  Računalne mreže\n7. 12:45  Mikroupravljači\n8. 13:35  Mikroupravljači",
+ "oba_kwgt": "[b]UTO 27.10. · ujutro · [c=#FF5252]2 izmj.[/c] · [c=#FFB300]skraćeni sati[/c][/b]\ndolazak 7:30 · kraj 13:40\n1.  7:30  Sat razrednika [c=#FF5252]- [s]MAT[/s][/c]\n2.  8:15  Matematika [c=#FF5252]- [s]OS[/s][/c]\n3.  9:00  Hrvatski\n4. 10:00  TZK\n5. 10:45  TZK\n6. 11:30  Engleski\n7. 12:15  Multimedija\n8. 13:00  Multimedija\n\n[b]SRI 28.10. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 8:20 · kraj 14:20\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  Građa računala\n3.  9:10  Engleski\n4. 10:15  Hrvatski\n5. 11:05  Računalne mreže\n6. 11:55  Računalne mreže\n7. 12:45  Mikroupravljači\n8. 13:35  Mikroupravljači",
  "greska": null,
- "azurirano": "26.10. 20:52"
+ "azurirano": "26.10. 21:16"
 }

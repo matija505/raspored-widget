@@ -273,6 +273,11 @@ def pick_day(now, cfg, izmjene):
     return d
 
 
+def precrtaj(t, bbcode):
+    """KWGT ima [s] tag; običan tekst (obavijesti) precrtava se Unicode znakom U+0336."""
+    return f"[s]{t}[/s]" if bbcode else "".join(ch + "̶" for ch in t)
+
+
 def render(day, bbcode):
     def c(color, t):
         return f"[c={color}]{t}[/c]" if bbcode else t
@@ -291,8 +296,8 @@ def render(day, bbcode):
         lines.append(c("#FF5252", day["cijeli_dan"]))
     for s in day["sati"]:
         vrijeme = s["od"] or "?"
-        # crveno = ono što je po rasporedu trebalo biti, a izmjenom je maknuto
-        maknuto = f"- {s['izvorna_kratica']}" if s["izvorno"] else "(novo)"
+        # crveno i precrtano = ono što je po rasporedu trebalo biti, a izmjenom je maknuto
+        maknuto = f"- {precrtaj(s['izvorna_kratica'], bbcode)}" if s["izvorno"] else "(novo)"
         if s["otpada"]:
             txt = c("#FF5252", f"--- {maknuto}")
         elif not s["predmet"]:
@@ -313,7 +318,7 @@ def opis_izmjena(day):
     if day["cijeli_dan"]:
         lines.append(day["cijeli_dan"])
     for s in day["sati"]:
-        maknuto = f"- {s['izvorna_kratica']}" if s["izvorno"] else "(novo)"
+        maknuto = f"- {precrtaj(s['izvorna_kratica'], False)}" if s["izvorno"] else "(novo)"
         if s["otpada"]:
             lines.append(f"{s['sat']}. --- {maknuto}")
         elif s["izmjena"]:

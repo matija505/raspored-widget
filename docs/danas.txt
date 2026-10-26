@@ -1,7 +1,7 @@
 UTO 27.10. · ujutro · 2 izmj. · skraćeni sati
 dolazak 7:30 · kraj 13:40
-1.  7:30  Sat razrednika - MAT
-2.  8:15  Matematika - OS
+1.  7:30  Sat razrednika - M̶A̶T̶
+2.  8:15  Matematika - O̶S̶
 3.  9:00  Hrvatski
 4. 10:00  TZK
 5. 10:45  TZK
@@ -19,4 +19,4 @@ dolazak 8:20 · kraj 14:20
 6. 11:55  Računalne mreže
 7. 12:45  Mikroupravljači
 8. 13:35  Mikroupravljači
-(ažurirano 26.10. 20:52)
+(ažurirano 26.10. 21:16)
