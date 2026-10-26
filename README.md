@@ -16,7 +16,7 @@ Prikazuje se današnji dan dok nastava ne završi, a nakon toga sljedeći radni 
 2. **Publish repository**, makni kvačicu **Keep this code private** (widget mora moći čitati datoteku bez prijave).
 3. Na github.com u repou: **Actions** → ako pita, *enable workflows* → "Ažuriraj raspored" → **Run workflow** (prvo pokretanje).
 
-Link za widget (zamijeni matija505/raspored-widget):
+Link za widget:
 
 ```
 https://raw.githubusercontent.com/matija505/raspored-widget/main/docs/danas.json
