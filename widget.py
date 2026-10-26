@@ -273,15 +273,17 @@ def pick_day(now, cfg, izmjene):
     return d
 
 
-def precrtaj(t, bbcode):
-    """KWGT ima [s] tag; običan tekst (obavijesti) precrtava se Unicode znakom U+0336.
+def maknuto(s, bbcode):
+    """Oznaka predmeta koji je izmjenom maknut.
 
-    Samsungov font crtu pomakne udesno, pa crtu stavljamo i na razmak ispred (zato prvi
-    U+0336 ide bez slova, veže se na razmak koji je pozivatelj stavio) i ne na zadnje slovo.
+    KWGT: crvena precrtana kratica ("- [s]OS[/s]"). Običan tekst (obavijesti): "(umj. OS)",
+    jer Unicode precrtavanje Samsungov font krivo poravna.
     """
+    if not s["izvorno"]:
+        return "(novo)"
     if bbcode:
-        return f"[s]{t}[/s]"
-    return "̶" + "".join(ch + "̶" for ch in t[:-1]) + t[-1:]
+        return f"- [s]{s['izvorna_kratica']}[/s]"
+    return f"(otpada {s['izvorna_kratica']})" if s["otpada"] else f"(umj. {s['izvorna_kratica']})"
 
 
 def render(day, bbcode):
@@ -302,14 +304,13 @@ def render(day, bbcode):
         lines.append(c("#FF5252", day["cijeli_dan"]))
     for s in day["sati"]:
         vrijeme = s["od"] or "?"
-        # crveno i precrtano = ono što je po rasporedu trebalo biti, a izmjenom je maknuto
-        maknuto = f"- {precrtaj(s['izvorna_kratica'], bbcode)}" if s["izvorno"] else "(novo)"
+        # crveno = ono što je po rasporedu trebalo biti, a izmjenom je maknuto
         if s["otpada"]:
-            txt = c("#FF5252", f"--- {maknuto}")
+            txt = c("#FF5252", f"--- {maknuto(s, bbcode)}")
         elif not s["predmet"]:
             txt = c("#8A8A8A", "---")
         elif s["izmjena"]:
-            txt = f"{s['predmet']} " + c("#FF5252", maknuto)
+            txt = f"{s['predmet']} " + c("#FF5252", maknuto(s, bbcode))
         else:
             txt = s["predmet"]
         if s["ucionica"]:
@@ -324,11 +325,10 @@ def opis_izmjena(day):
     if day["cijeli_dan"]:
         lines.append(day["cijeli_dan"])
     for s in day["sati"]:
-        maknuto = f"- {precrtaj(s['izvorna_kratica'], False)}" if s["izvorno"] else "(novo)"
         if s["otpada"]:
-            lines.append(f"{s['sat']}. --- {maknuto}")
+            lines.append(f"{s['sat']}. --- {maknuto(s, False)}")
         elif s["izmjena"]:
-            lines.append(f"{s['sat']}. {s['predmet']} {maknuto}")
+            lines.append(f"{s['sat']}. {s['predmet']} {maknuto(s, False)}")
     if day["skraceni_sati"]:
         lines.append(f"Skraćeni sati, kraj {day['kraj']}")
     return "\n".join(lines)
