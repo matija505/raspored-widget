@@ -39,6 +39,17 @@ https://raw.githubusercontent.com/matija505/raspored-widget/main/docs/danas.json
 5. Za osvježavanje: KWGT → Postavke → *Update interval* (npr. 15 min).
 6. Spremi (ikona diskete gore desno).
 
+### Widget kao slika (preporučeno)
+
+Skripta crta i gotove slike `docs/danas.png` i `docs/sutra.png` (zaobljena kartica, boje, precrtane
+kratice). U KWGT-u: **+** → **Image** → **Bitmap** → ikona formule → upiši
+
+```
+https://raw.githubusercontent.com/matija505/raspored-widget/main/docs/$if(gv(sutra)=1, "sutra", "danas")$.png?v=$wg("https://raw.githubusercontent.com/matija505/raspored-widget/main/docs/danas.json", json, ".verzija")$
+```
+
+`?v=...` se mijenja sa sadržajem, pa KWGT ne prikazuje staru sliku iz cachea.
+
 ### Sutrašnji dan
 
 KWGT widgeti se ne mogu scrollati, zato postoje dvije opcije:

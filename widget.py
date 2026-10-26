@@ -4,6 +4,7 @@ Rezultat: docs/danas.json (za KWGT widget) i docs/danas.txt.
 Pokretanje: python widget.py            (sada)
             python widget.py 2026-10-27T06:00   (testiranje za neko vrijeme)
 """
+import hashlib
 import html
 import json
 import os
@@ -13,6 +14,8 @@ import urllib.request
 from datetime import date, datetime, timedelta, timezone
 from html.parser import HTMLParser
 from pathlib import Path
+
+import slika
 
 ROOT = Path(__file__).parent
 DANI = ["PON", "UTO", "SRI", "ČET", "PET", "SUB", "NED"]
@@ -388,6 +391,8 @@ def main():
         "oba_kwgt": day["tekst_kwgt"] + "\n\n" + sljedeci["tekst_kwgt"],
         "greska": greska,
     }
+    # mijenja se kad i sadržaj; KWGT ga dodaje u URL slike da ne prikazuje staru iz cachea
+    out["verzija"] = hashlib.sha1(json.dumps(out, sort_keys=True).encode()).hexdigest()[:10]
 
     docs = ROOT / "docs"
     docs.mkdir(exist_ok=True)
@@ -401,6 +406,8 @@ def main():
         return
     out["azurirano"] = now.strftime("%d.%m. %H:%M")
     path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    slika.render(day, cfg["razred"], out["azurirano"], docs / "danas.png")
+    slika.render(sljedeci, cfg["razred"], out["azurirano"], docs / "sutra.png")
     tekst = out["tekst"] + "\n\n" + sljedeci["tekst"]
     (docs / "danas.txt").write_text(tekst + f"\n(ažurirano {out['azurirano']})\n", encoding="utf-8")
     print(tekst)
