@@ -1,15 +1,3 @@
-PON 26.10. · ujutro · 1 izmj.
-dolazak 9:10 · kraj 15:10
-1.  7:30  ---
-2.  8:20  --- - OS
-3.  9:10  Sat razrednika
-4. 10:15  Građa računala
-5. 11:05  ---
-6. 11:55  ---
-7. 12:45  Matematika
-8. 13:35  Fizika · uč. 116
-9. 14:25  Vjeronauk · uč. 116
-
 UTO 27.10. · ujutro · 2 izmj. · skraćeni sati
 dolazak 7:30 · kraj 13:40
 1.  7:30  Sat razrednika - MAT
@@ -20,4 +8,15 @@ dolazak 7:30 · kraj 13:40
 6. 11:30  Engleski
 7. 12:15  Multimedija
 8. 13:00  Multimedija
-(ažurirano 26.10. 06:00)
+
+SRI 28.10. · ujutro · izmjene još nisu objavljene
+dolazak 8:20 · kraj 14:20
+1.  7:30  ---
+2.  8:20  Građa računala
+3.  9:10  Engleski
+4. 10:15  Hrvatski
+5. 11:05  Računalne mreže
+6. 11:55  Računalne mreže
+7. 12:45  Mikroupravljači
+8. 13:35  Mikroupravljači
+(ažurirano 26.10. 20:52)
