@@ -16,10 +16,10 @@ Prikazuje se današnji dan dok nastava ne završi, a nakon toga sljedeći radni 
 2. **Publish repository**, makni kvačicu **Keep this code private** (widget mora moći čitati datoteku bez prijave).
 3. Na github.com u repou: **Actions** → ako pita, *enable workflows* → "Ažuriraj raspored" → **Run workflow** (prvo pokretanje).
 
-Link za widget (zamijeni KORISNIK/REPO):
+Link za widget (zamijeni matija505/raspored-widget):
 
 ```
-https://raw.githubusercontent.com/KORISNIK/REPO/main/docs/danas.json
+https://raw.githubusercontent.com/matija505/raspored-widget/main/docs/danas.json
 ```
 
 ## 2. Widget na Samsungu (KWGT)
@@ -30,7 +30,7 @@ https://raw.githubusercontent.com/KORISNIK/REPO/main/docs/danas.json
 4. Kod teksta dodirni polje i upiši formulu:
 
    ```
-   $wg("https://raw.githubusercontent.com/KORISNIK/REPO/main/docs/danas.json", json, ".tekst_kwgt")$
+   $wg("https://raw.githubusercontent.com/matija505/raspored-widget/main/docs/danas.json", json, ".tekst_kwgt")$
    ```
 
    `tekst_kwgt` već ima boje. Crvena kratica je predmet koji je izmjenom maknut:
@@ -49,7 +49,7 @@ KWGT widgeti se ne mogu scrollati, zato postoje dvije opcije:
 2. Formula teksta:
 
    ```
-   $if(gv(sutra)=1, wg("https://raw.githubusercontent.com/KORISNIK/REPO/main/docs/danas.json", json, ".sljedeci.tekst_kwgt"), wg("https://raw.githubusercontent.com/KORISNIK/REPO/main/docs/danas.json", json, ".tekst_kwgt"))$
+   $if(gv(sutra)=1, wg("https://raw.githubusercontent.com/matija505/raspored-widget/main/docs/danas.json", json, ".sljedeci.tekst_kwgt"), wg("https://raw.githubusercontent.com/matija505/raspored-widget/main/docs/danas.json", json, ".tekst_kwgt"))$
    ```
 
 3. Tekst → kartica **Touch** → **+** → akcija *Switch global* → `sutra`.
