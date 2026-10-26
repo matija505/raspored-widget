@@ -341,7 +341,7 @@ def posalji_obavijesti(now, cfg, izmjene):
         naslov = f"Izmjene {kada} {day['datum_kratko']}".replace("  ", " ")
         print(f"obavijest: {naslov}\n{opis}")
         if topic:
-            body = json.dumps({"topic": topic, "title": naslov, "message": opis, "tags": ["school"],
+            body = json.dumps({"topic": topic, "title": naslov, "message": opis,
                                "click": cfg["izmjene_stranica"]}).encode()
             req = urllib.request.Request("https://ntfy.sh/", data=body, headers={"Content-Type": "application/json"})
             urllib.request.urlopen(req, timeout=30).close()
