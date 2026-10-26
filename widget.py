@@ -6,6 +6,7 @@ Pokretanje: python widget.py            (sada)
 """
 import html
 import json
+import os
 import re
 import sys
 import urllib.request
@@ -306,6 +307,48 @@ def render(day, bbcode):
     return "\n".join(lines)
 
 
+def opis_izmjena(day):
+    """Samo promijenjeni sati, za tekst obavijesti. Prazno ako nema izmjena."""
+    lines = []
+    if day["cijeli_dan"]:
+        lines.append(day["cijeli_dan"])
+    for s in day["sati"]:
+        maknuto = f"- {s['izvorna_kratica']}" if s["izvorno"] else "(novo)"
+        if s["otpada"]:
+            lines.append(f"{s['sat']}. --- {maknuto}")
+        elif s["izmjena"]:
+            lines.append(f"{s['sat']}. {s['predmet']} {maknuto}")
+    if day["skraceni_sati"]:
+        lines.append(f"Skraćeni sati, kraj {day['kraj']}")
+    return "\n".join(lines)
+
+
+def posalji_obavijesti(now, cfg, izmjene):
+    """Za svaki dan od danas nadalje: ako su se izmjene za razred pojavile ili promijenile, pošalji ntfy obavijest."""
+    topic = os.environ.get("NTFY_TOPIC")
+    path = ROOT / "docs" / "obavijesti.json"
+    poslano = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    novo = {}
+    for d in sorted(izmjene):
+        if d < now.date():
+            continue
+        day = build_day(d, cfg, izmjene)
+        opis = opis_izmjena(day)
+        novo[d.isoformat()] = opis
+        if not opis or poslano.get(d.isoformat()) == opis:
+            continue
+        kada = "danas" if d == now.date() else "sutra" if d == now.date() + timedelta(days=1) else ""
+        naslov = f"Izmjene {kada} {day['datum_kratko']}".replace("  ", " ")
+        print(f"obavijest: {naslov}\n{opis}")
+        if topic:
+            body = json.dumps({"topic": topic, "title": naslov, "message": opis, "tags": ["school"],
+                               "click": cfg["izmjene_stranica"]}).encode()
+            req = urllib.request.Request("https://ntfy.sh/", data=body, headers={"Content-Type": "application/json"})
+            urllib.request.urlopen(req, timeout=30).close()
+    if novo != {k: v for k, v in poslano.items() if k in novo} or set(poslano) - set(novo):
+        path.write_text(json.dumps(novo, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     cfg = json.loads((ROOT / "raspored.json").read_text(encoding="utf-8"))
@@ -337,6 +380,8 @@ def main():
 
     docs = ROOT / "docs"
     docs.mkdir(exist_ok=True)
+    if not greska:
+        posalji_obavijesti(now, cfg, izmjene)
     path = docs / "danas.json"
     old = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
     old.pop("azurirano", None)

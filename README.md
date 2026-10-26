@@ -62,6 +62,17 @@ i povećaj widget (npr. 4×5).
 Ostala polja u JSON-u, ako želiš složeniji izgled: `.dolazak`, `.kraj`, `.broj_izmjena`,
 `.smjena`, `.azurirano`, `.sljedeci.tekst_kwgt`...
 
+## 3. Obavijesti na mobitelu (ntfy)
+
+Kad škola objavi ili promijeni izmjene za 3.G (danas ili idućih dana), stigne obavijest,
+npr. *"Izmjene sutra UTO 27.10."* s popisom promijenjenih sati.
+
+1. Instaliraj **ntfy** iz Play Storea (besplatno, bez računa).
+2. **+** → upiši naziv kanala (spremljen je kao tajna `NTFY_TOPIC` u postavkama repoa) → **Subscribe**.
+3. U postavkama Androida dopusti obavijesti za ntfy i isključi mu optimizaciju baterije.
+
+Isti dan se javlja samo kad se izmjene stvarno promijene, nema ponavljanja.
+
 ## Održavanje
 
 - **Smjena krivo pogođena** (npr. nakon praznika): u `raspored.json` u `smjena_iznimke` dodaj
