@@ -45,10 +45,10 @@ Skripta crta i gotove slike `docs/danas.png` i `docs/sutra.png` (zaobljena karti
 kratice). U KWGT-u: **+** → **Image** → **Bitmap** → ikona formule → upiši
 
 ```
-https://raw.githubusercontent.com/matija505/raspored-widget/main/docs/$if(gv(sutra)=1, "sutra", "danas")$.png?v=$wg("https://raw.githubusercontent.com/matija505/raspored-widget/main/docs/danas.json", json, ".verzija")$
+https://raw.githubusercontent.com/matija505/raspored-widget/main/docs/$if(gv(sutra)=1, "sutra", "danas")$.png?v=$df(yyMMddHH)$$mu(floor, df(m)/15)$
 ```
 
-`?v=...` se mijenja sa sadržajem, pa KWGT ne prikazuje staru sliku iz cachea.
+`?v=...` se mijenja svakih 15 min, pa KWGT ne prikazuje staru sliku iz cachea.
 
 ### Sutrašnji dan
 
