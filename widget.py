@@ -274,8 +274,14 @@ def pick_day(now, cfg, izmjene):
 
 
 def precrtaj(t, bbcode):
-    """KWGT ima [s] tag; običan tekst (obavijesti) precrtava se Unicode znakom U+0336."""
-    return f"[s]{t}[/s]" if bbcode else "".join(ch + "̶" for ch in t)
+    """KWGT ima [s] tag; običan tekst (obavijesti) precrtava se Unicode znakom U+0336.
+
+    Samsungov font crtu pomakne udesno, pa crtu stavljamo i na razmak ispred (zato prvi
+    U+0336 ide bez slova, veže se na razmak koji je pozivatelj stavio) i ne na zadnje slovo.
+    """
+    if bbcode:
+        return f"[s]{t}[/s]"
+    return "̶" + "".join(ch + "̶" for ch in t[:-1]) + t[-1:]
 
 
 def render(day, bbcode):
