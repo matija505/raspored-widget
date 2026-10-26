@@ -349,7 +349,7 @@ def posalji_obavijesti(now, cfg, izmjene):
         if not opis or poslano.get(d.isoformat()) == opis:
             continue
         kada = "danas" if d == now.date() else "sutra" if d == now.date() + timedelta(days=1) else ""
-        naslov = f"Izmjene {kada} {day['datum_kratko']}".replace("  ", " ")
+        naslov = f"Izmjene {kada} {DANI[d.weekday()]}".replace("  ", " ")
         print(f"obavijest: {naslov}\n{opis}")
         if topic:
             body = json.dumps({"topic": topic, "title": naslov, "message": opis,
