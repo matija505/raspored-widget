@@ -1,14 +1,3 @@
-SRI 28.10. · ujutro
-dolazak 8:20 · kraj 14:20
-1.  7:30  ---
-2.  8:20  Građa računala
-3.  9:10  Engleski
-4. 10:15  Hrvatski
-5. 11:05  Računalne mreže
-6. 11:55  Računalne mreže
-7. 12:45  Mikroupravljači
-8. 13:35  Mikroupravljači
-
 ČET 29.10. · ujutro · 2 izmj.
 dolazak 9:10 · kraj 14:20
 1.  7:30  ---
@@ -18,5 +7,14 @@ dolazak 9:10 · kraj 14:20
 5. 11:05  Računalne mreže (umj. DBP)
 6. 11:55  Engleski
 7. 12:45  Fizika
-8. 13:35  Fizika · uč. 8
-(ažurirano 28.10. 11:27)
+8. 13:35  Fizika
+
+PET 30.10. · ujutro · izmjene još nisu objavljene
+dolazak 7:30 · kraj 12:40
+1.  7:30  Matematika
+2.  8:20  Građa računala
+3.  9:10  Skriptni i web
+4. 10:15  Skriptni i web
+5. 11:05  Objektno prog.
+6. 11:55  Objektno prog.
+(ažurirano 28.10. 17:48)
