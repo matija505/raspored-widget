@@ -108,8 +108,8 @@
   "dan": "Četvrtak",
   "datum_kratko": "ČET 29.10.",
   "smjena": "ujutro",
-  "izmjene_objavljene": false,
-  "broj_izmjena": 0,
+  "izmjene_objavljene": true,
+  "broj_izmjena": 2,
   "cijeli_dan": null,
   "skraceni_sati": false,
   "sati": [
@@ -150,9 +150,9 @@
     "sat": 4,
     "od": "10:15",
     "do": "11:00",
-    "predmet": "Baze podataka",
+    "predmet": "Hrvatski",
     "izvorno": "Baze podataka",
-    "izmjena": false,
+    "izmjena": true,
     "otpada": false,
     "ucionica": null,
     "izvorna_kratica": "DBP"
@@ -161,9 +161,9 @@
     "sat": 5,
     "od": "11:05",
     "do": "11:50",
-    "predmet": "Baze podataka",
+    "predmet": "Računalne mreže",
     "izvorno": "Baze podataka",
-    "izmjena": false,
+    "izmjena": true,
     "otpada": false,
     "ucionica": null,
     "izvorna_kratica": "DBP"
@@ -198,15 +198,15 @@
     "izvorno": "Fizika",
     "izmjena": false,
     "otpada": false,
-    "ucionica": null,
+    "ucionica": "8",
     "izvorna_kratica": "FIZ"
    }
   ],
-  "tekst": "ČET 29.10. · ujutro · izmjene još nisu objavljene\ndolazak 9:10 · kraj 14:20\n1.  7:30  ---\n2.  8:20  ---\n3.  9:10  Engleski\n4. 10:15  Baze podataka\n5. 11:05  Baze podataka\n6. 11:55  Engleski\n7. 12:45  Fizika\n8. 13:35  Fizika",
-  "tekst_kwgt": "[b]ČET 29.10. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 9:10 · kraj 14:20\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  [c=#8A8A8A]---[/c]\n3.  9:10  Engleski\n4. 10:15  Baze podataka\n5. 11:05  Baze podataka\n6. 11:55  Engleski\n7. 12:45  Fizika\n8. 13:35  Fizika"
+  "tekst": "ČET 29.10. · ujutro · 2 izmj.\ndolazak 9:10 · kraj 14:20\n1.  7:30  ---\n2.  8:20  ---\n3.  9:10  Engleski\n4. 10:15  Hrvatski (umj. DBP)\n5. 11:05  Računalne mreže (umj. DBP)\n6. 11:55  Engleski\n7. 12:45  Fizika\n8. 13:35  Fizika · uč. 8",
+  "tekst_kwgt": "[b]ČET 29.10. · ujutro · [c=#FF5252]2 izmj.[/c][/b]\ndolazak 9:10 · kraj 14:20\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  [c=#8A8A8A]---[/c]\n3.  9:10  Engleski\n4. 10:15  Hrvatski [c=#FF5252]- [s]DBP[/s][/c]\n5. 11:05  Računalne mreže [c=#FF5252]- [s]DBP[/s][/c]\n6. 11:55  Engleski\n7. 12:45  Fizika\n8. 13:35  Fizika · uč. 8"
  },
- "oba_kwgt": "[b]SRI 28.10. · ujutro[/b]\ndolazak 8:20 · kraj 14:20\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  Građa računala\n3.  9:10  Engleski\n4. 10:15  Hrvatski\n5. 11:05  Računalne mreže\n6. 11:55  Računalne mreže\n7. 12:45  Mikroupravljači\n8. 13:35  Mikroupravljači\n\n[b]ČET 29.10. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 9:10 · kraj 14:20\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  [c=#8A8A8A]---[/c]\n3.  9:10  Engleski\n4. 10:15  Baze podataka\n5. 11:05  Baze podataka\n6. 11:55  Engleski\n7. 12:45  Fizika\n8. 13:35  Fizika",
+ "oba_kwgt": "[b]SRI 28.10. · ujutro[/b]\ndolazak 8:20 · kraj 14:20\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  Građa računala\n3.  9:10  Engleski\n4. 10:15  Hrvatski\n5. 11:05  Računalne mreže\n6. 11:55  Računalne mreže\n7. 12:45  Mikroupravljači\n8. 13:35  Mikroupravljači\n\n[b]ČET 29.10. · ujutro · [c=#FF5252]2 izmj.[/c][/b]\ndolazak 9:10 · kraj 14:20\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  [c=#8A8A8A]---[/c]\n3.  9:10  Engleski\n4. 10:15  Hrvatski [c=#FF5252]- [s]DBP[/s][/c]\n5. 11:05  Računalne mreže [c=#FF5252]- [s]DBP[/s][/c]\n6. 11:55  Engleski\n7. 12:45  Fizika\n8. 13:35  Fizika · uč. 8",
  "greska": null,
- "verzija": "f00e30e2e7",
- "azurirano": "27.10. 16:34"
+ "verzija": "b1ee1c205b",
+ "azurirano": "28.10. 11:27"
 }
