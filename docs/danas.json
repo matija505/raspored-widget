@@ -108,7 +108,7 @@
   "dan": "Petak",
   "datum_kratko": "PET 30.10.",
   "smjena": "ujutro",
-  "izmjene_objavljene": false,
+  "izmjene_objavljene": true,
   "broj_izmjena": 0,
   "cijeli_dan": null,
   "skraceni_sati": false,
@@ -180,11 +180,11 @@
     "izvorna_kratica": "NOOP"
    }
   ],
-  "tekst": "PET 30.10. · ujutro · izmjene još nisu objavljene\ndolazak 7:30 · kraj 12:40\n1.  7:30  Matematika\n2.  8:20  Građa računala\n3.  9:10  Skriptni i web\n4. 10:15  Skriptni i web\n5. 11:05  Objektno prog.\n6. 11:55  Objektno prog.",
-  "tekst_kwgt": "[b]PET 30.10. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 7:30 · kraj 12:40\n1.  7:30  Matematika\n2.  8:20  Građa računala\n3.  9:10  Skriptni i web\n4. 10:15  Skriptni i web\n5. 11:05  Objektno prog.\n6. 11:55  Objektno prog."
+  "tekst": "PET 30.10. · ujutro\ndolazak 7:30 · kraj 12:40\n1.  7:30  Matematika\n2.  8:20  Građa računala\n3.  9:10  Skriptni i web\n4. 10:15  Skriptni i web\n5. 11:05  Objektno prog.\n6. 11:55  Objektno prog.",
+  "tekst_kwgt": "[b]PET 30.10. · ujutro[/b]\ndolazak 7:30 · kraj 12:40\n1.  7:30  Matematika\n2.  8:20  Građa računala\n3.  9:10  Skriptni i web\n4. 10:15  Skriptni i web\n5. 11:05  Objektno prog.\n6. 11:55  Objektno prog."
  },
- "oba_kwgt": "[b]ČET 29.10. · ujutro · [c=#FF5252]2 izmj.[/c][/b]\ndolazak 9:10 · kraj 14:20\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  [c=#8A8A8A]---[/c]\n3.  9:10  Engleski\n4. 10:15  Hrvatski [c=#FF5252]- [s]DBP[/s][/c]\n5. 11:05  Računalne mreže [c=#FF5252]- [s]DBP[/s][/c]\n6. 11:55  Engleski\n7. 12:45  Fizika\n8. 13:35  Fizika\n\n[b]PET 30.10. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 7:30 · kraj 12:40\n1.  7:30  Matematika\n2.  8:20  Građa računala\n3.  9:10  Skriptni i web\n4. 10:15  Skriptni i web\n5. 11:05  Objektno prog.\n6. 11:55  Objektno prog.",
+ "oba_kwgt": "[b]ČET 29.10. · ujutro · [c=#FF5252]2 izmj.[/c][/b]\ndolazak 9:10 · kraj 14:20\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  [c=#8A8A8A]---[/c]\n3.  9:10  Engleski\n4. 10:15  Hrvatski [c=#FF5252]- [s]DBP[/s][/c]\n5. 11:05  Računalne mreže [c=#FF5252]- [s]DBP[/s][/c]\n6. 11:55  Engleski\n7. 12:45  Fizika\n8. 13:35  Fizika\n\n[b]PET 30.10. · ujutro[/b]\ndolazak 7:30 · kraj 12:40\n1.  7:30  Matematika\n2.  8:20  Građa računala\n3.  9:10  Skriptni i web\n4. 10:15  Skriptni i web\n5. 11:05  Objektno prog.\n6. 11:55  Objektno prog.",
  "greska": null,
- "verzija": "7f2f1f3b79",
- "azurirano": "28.10. 17:48"
+ "verzija": "d04eb72d6b",
+ "azurirano": "29.10. 11:46"
 }

@@ -9,7 +9,7 @@ dolazak 9:10 · kraj 14:20
 7. 12:45  Fizika
 8. 13:35  Fizika
 
-PET 30.10. · ujutro · izmjene još nisu objavljene
+PET 30.10. · ujutro
 dolazak 7:30 · kraj 12:40
 1.  7:30  Matematika
 2.  8:20  Građa računala
@@ -17,4 +17,4 @@ dolazak 7:30 · kraj 12:40
 4. 10:15  Skriptni i web
 5. 11:05  Objektno prog.
 6. 11:55  Objektno prog.
-(ažurirano 28.10. 17:48)
+(ažurirano 29.10. 11:46)
