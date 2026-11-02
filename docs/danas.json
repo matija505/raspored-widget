@@ -97,7 +97,7 @@
   "dan": "Utorak",
   "datum_kratko": "UTO 3.11.",
   "smjena": "popodne",
-  "izmjene_objavljene": false,
+  "izmjene_objavljene": true,
   "broj_izmjena": 0,
   "cijeli_dan": null,
   "skraceni_sati": false,
@@ -191,11 +191,11 @@
     "izvorna_kratica": "ENG"
    }
   ],
-  "tekst": "UTO 3.11. · popodne · izmjene još nisu objavljene\ndolazak 12:45 · kraj 19:35\n0. 12:45  Objektno prog.\n1. 13:35  Objektno prog.\n2. 14:25  Matematika\n3. 15:15  Matematika\n4. 16:20  Operacijski sust.\n5. 17:10  Operacijski sust.\n6. 18:00  Hrvatski\n7. 18:50  Engleski",
-  "tekst_kwgt": "[b]UTO 3.11. · popodne · izmjene još nisu objavljene[/b]\ndolazak 12:45 · kraj 19:35\n0. 12:45  Objektno prog.\n1. 13:35  Objektno prog.\n2. 14:25  Matematika\n3. 15:15  Matematika\n4. 16:20  Operacijski sust.\n5. 17:10  Operacijski sust.\n6. 18:00  Hrvatski\n7. 18:50  Engleski"
+  "tekst": "UTO 3.11. · popodne\ndolazak 12:45 · kraj 19:35\n0. 12:45  Objektno prog.\n1. 13:35  Objektno prog.\n2. 14:25  Matematika\n3. 15:15  Matematika\n4. 16:20  Operacijski sust.\n5. 17:10  Operacijski sust.\n6. 18:00  Hrvatski\n7. 18:50  Engleski",
+  "tekst_kwgt": "[b]UTO 3.11. · popodne[/b]\ndolazak 12:45 · kraj 19:35\n0. 12:45  Objektno prog.\n1. 13:35  Objektno prog.\n2. 14:25  Matematika\n3. 15:15  Matematika\n4. 16:20  Operacijski sust.\n5. 17:10  Operacijski sust.\n6. 18:00  Hrvatski\n7. 18:50  Engleski"
  },
- "oba_kwgt": "[b]PON 2.11. · popodne[/b]\ndolazak 12:45 · kraj 18:45\n0. 12:45  Fizika · uč. 116\n1. 13:35  Fizika\n2. 14:25  Baze podataka\n3. 15:15  Baze podataka\n4. 16:20  Građa računala\n5. 17:10  Građa računala\n6. 18:00  Vjeronauk\n\n[b]UTO 3.11. · popodne · izmjene još nisu objavljene[/b]\ndolazak 12:45 · kraj 19:35\n0. 12:45  Objektno prog.\n1. 13:35  Objektno prog.\n2. 14:25  Matematika\n3. 15:15  Matematika\n4. 16:20  Operacijski sust.\n5. 17:10  Operacijski sust.\n6. 18:00  Hrvatski\n7. 18:50  Engleski",
+ "oba_kwgt": "[b]PON 2.11. · popodne[/b]\ndolazak 12:45 · kraj 18:45\n0. 12:45  Fizika · uč. 116\n1. 13:35  Fizika\n2. 14:25  Baze podataka\n3. 15:15  Baze podataka\n4. 16:20  Građa računala\n5. 17:10  Građa računala\n6. 18:00  Vjeronauk\n\n[b]UTO 3.11. · popodne[/b]\ndolazak 12:45 · kraj 19:35\n0. 12:45  Objektno prog.\n1. 13:35  Objektno prog.\n2. 14:25  Matematika\n3. 15:15  Matematika\n4. 16:20  Operacijski sust.\n5. 17:10  Operacijski sust.\n6. 18:00  Hrvatski\n7. 18:50  Engleski",
  "greska": null,
- "verzija": "b4230882b8",
- "azurirano": "30.10. 17:58"
+ "verzija": "481f872cda",
+ "azurirano": "02.11. 13:09"
 }
