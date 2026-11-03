@@ -1,9 +1,9 @@
 {
  "dolazak": "12:45",
- "kraj": "19:35",
- "datum": "2026-11-03",
- "dan": "Utorak",
- "datum_kratko": "UTO 3.11.",
+ "kraj": "18:45",
+ "datum": "2026-11-04",
+ "dan": "Srijeda",
+ "datum_kratko": "SRI 4.11.",
  "smjena": "popodne",
  "izmjene_objavljene": true,
  "broj_izmjena": 0,
@@ -14,72 +14,50 @@
    "sat": 0,
    "od": "12:45",
    "do": "13:30",
-   "predmet": "Objektno prog.",
-   "izvorno": "Objektno prog.",
+   "predmet": "Primij. matem.",
+   "izvorno": "Primij. matem.",
    "izmjena": false,
    "otpada": false,
    "ucionica": null,
-   "izvorna_kratica": "NOOP"
+   "izvorna_kratica": "PM"
   },
   {
    "sat": 1,
    "od": "13:35",
    "do": "14:20",
-   "predmet": "Objektno prog.",
-   "izvorno": "Objektno prog.",
+   "predmet": "Primij. matem.",
+   "izvorno": "Primij. matem.",
    "izmjena": false,
    "otpada": false,
    "ucionica": null,
-   "izvorna_kratica": "NOOP"
+   "izvorna_kratica": "PM"
   },
   {
    "sat": 2,
    "od": "14:25",
    "do": "15:10",
-   "predmet": "Matematika",
-   "izvorno": "Matematika",
+   "predmet": "Mikroupravljači",
+   "izvorno": "Mikroupravljači",
    "izmjena": false,
    "otpada": false,
    "ucionica": null,
-   "izvorna_kratica": "MAT"
+   "izvorna_kratica": "MIK"
   },
   {
    "sat": 3,
    "od": "15:15",
    "do": "16:00",
-   "predmet": "Matematika",
-   "izvorno": "Matematika",
+   "predmet": "Mikroupravljači",
+   "izvorno": "Mikroupravljači",
    "izmjena": false,
    "otpada": false,
    "ucionica": null,
-   "izvorna_kratica": "MAT"
+   "izvorna_kratica": "MIK"
   },
   {
    "sat": 4,
    "od": "16:20",
    "do": "17:05",
-   "predmet": "Operacijski sust.",
-   "izvorno": "Operacijski sust.",
-   "izmjena": false,
-   "otpada": false,
-   "ucionica": null,
-   "izvorna_kratica": "OS"
-  },
-  {
-   "sat": 5,
-   "od": "17:10",
-   "do": "17:55",
-   "predmet": "Operacijski sust.",
-   "izvorno": "Operacijski sust.",
-   "izmjena": false,
-   "otpada": false,
-   "ucionica": null,
-   "izvorna_kratica": "OS"
-  },
-  {
-   "sat": 6,
-   "od": "18:00",
-   "do": "18:45",
    "predmet": "Hrvatski",
    "izvorno": "Hrvatski",
    "izmjena": false,
@@ -88,25 +66,36 @@
    "izvorna_kratica": "HRV"
   },
   {
-   "sat": 7,
-   "od": "18:50",
-   "do": "19:35",
+   "sat": 5,
+   "od": "17:10",
+   "do": "17:55",
    "predmet": "Engleski",
    "izvorno": "Engleski",
    "izmjena": false,
    "otpada": false,
    "ucionica": null,
    "izvorna_kratica": "ENG"
+  },
+  {
+   "sat": 6,
+   "od": "18:00",
+   "do": "18:45",
+   "predmet": "Matematika",
+   "izvorno": "Matematika",
+   "izmjena": false,
+   "otpada": false,
+   "ucionica": null,
+   "izvorna_kratica": "MAT"
   }
  ],
- "tekst": "UTO 3.11. · popodne\ndolazak 12:45 · kraj 19:35\n0. 12:45  Objektno prog.\n1. 13:35  Objektno prog.\n2. 14:25  Matematika\n3. 15:15  Matematika\n4. 16:20  Operacijski sust.\n5. 17:10  Operacijski sust.\n6. 18:00  Hrvatski\n7. 18:50  Engleski",
- "tekst_kwgt": "[b]UTO 3.11. · popodne[/b]\ndolazak 12:45 · kraj 19:35\n0. 12:45  Objektno prog.\n1. 13:35  Objektno prog.\n2. 14:25  Matematika\n3. 15:15  Matematika\n4. 16:20  Operacijski sust.\n5. 17:10  Operacijski sust.\n6. 18:00  Hrvatski\n7. 18:50  Engleski",
+ "tekst": "SRI 4.11. · popodne\ndolazak 12:45 · kraj 18:45\n0. 12:45  Primij. matem.\n1. 13:35  Primij. matem.\n2. 14:25  Mikroupravljači\n3. 15:15  Mikroupravljači\n4. 16:20  Hrvatski\n5. 17:10  Engleski\n6. 18:00  Matematika",
+ "tekst_kwgt": "[b]SRI 4.11. · popodne[/b]\ndolazak 12:45 · kraj 18:45\n0. 12:45  Primij. matem.\n1. 13:35  Primij. matem.\n2. 14:25  Mikroupravljači\n3. 15:15  Mikroupravljači\n4. 16:20  Hrvatski\n5. 17:10  Engleski\n6. 18:00  Matematika",
  "sljedeci": {
   "dolazak": "12:45",
-  "kraj": "18:45",
-  "datum": "2026-11-04",
-  "dan": "Srijeda",
-  "datum_kratko": "SRI 4.11.",
+  "kraj": "19:35",
+  "datum": "2026-11-05",
+  "dan": "Četvrtak",
+  "datum_kratko": "ČET 5.11.",
   "smjena": "popodne",
   "izmjene_objavljene": false,
   "broj_izmjena": 0,
@@ -117,50 +106,61 @@
     "sat": 0,
     "od": "12:45",
     "do": "13:30",
-    "predmet": "Primij. matem.",
-    "izvorno": "Primij. matem.",
+    "predmet": "Skriptni i web",
+    "izvorno": "Skriptni i web",
     "izmjena": false,
     "otpada": false,
     "ucionica": null,
-    "izvorna_kratica": "PM"
+    "izvorna_kratica": "SJWP"
    },
    {
     "sat": 1,
     "od": "13:35",
     "do": "14:20",
-    "predmet": "Primij. matem.",
-    "izvorno": "Primij. matem.",
+    "predmet": "Skriptni i web",
+    "izvorno": "Skriptni i web",
     "izmjena": false,
     "otpada": false,
     "ucionica": null,
-    "izvorna_kratica": "PM"
+    "izvorna_kratica": "SJWP"
    },
    {
     "sat": 2,
     "od": "14:25",
     "do": "15:10",
-    "predmet": "Mikroupravljači",
-    "izvorno": "Mikroupravljači",
+    "predmet": "Računalne mreže",
+    "izvorno": "Računalne mreže",
     "izmjena": false,
     "otpada": false,
     "ucionica": null,
-    "izvorna_kratica": "MIK"
+    "izvorna_kratica": "RM"
    },
    {
     "sat": 3,
     "od": "15:15",
     "do": "16:00",
-    "predmet": "Mikroupravljači",
-    "izvorno": "Mikroupravljači",
+    "predmet": "TZK",
+    "izvorno": "TZK",
     "izmjena": false,
     "otpada": false,
     "ucionica": null,
-    "izvorna_kratica": "MIK"
+    "izvorna_kratica": "TZK"
    },
    {
     "sat": 4,
     "od": "16:20",
     "do": "17:05",
+    "predmet": "TZK",
+    "izvorno": "TZK",
+    "izmjena": false,
+    "otpada": false,
+    "ucionica": null,
+    "izvorna_kratica": "TZK"
+   },
+   {
+    "sat": 5,
+    "od": "17:10",
+    "do": "17:55",
     "predmet": "Hrvatski",
     "izvorno": "Hrvatski",
     "izmjena": false,
@@ -169,33 +169,33 @@
     "izvorna_kratica": "HRV"
    },
    {
-    "sat": 5,
-    "od": "17:10",
-    "do": "17:55",
+    "sat": 6,
+    "od": "18:00",
+    "do": "18:45",
+    "predmet": "Sat razrednika",
+    "izvorno": "Sat razrednika",
+    "izmjena": false,
+    "otpada": false,
+    "ucionica": null,
+    "izvorna_kratica": "SR"
+   },
+   {
+    "sat": 7,
+    "od": "18:50",
+    "do": "19:35",
     "predmet": "Engleski",
     "izvorno": "Engleski",
     "izmjena": false,
     "otpada": false,
     "ucionica": null,
     "izvorna_kratica": "ENG"
-   },
-   {
-    "sat": 6,
-    "od": "18:00",
-    "do": "18:45",
-    "predmet": "Matematika",
-    "izvorno": "Matematika",
-    "izmjena": false,
-    "otpada": false,
-    "ucionica": null,
-    "izvorna_kratica": "MAT"
    }
   ],
-  "tekst": "SRI 4.11. · popodne · izmjene još nisu objavljene\ndolazak 12:45 · kraj 18:45\n0. 12:45  Primij. matem.\n1. 13:35  Primij. matem.\n2. 14:25  Mikroupravljači\n3. 15:15  Mikroupravljači\n4. 16:20  Hrvatski\n5. 17:10  Engleski\n6. 18:00  Matematika",
-  "tekst_kwgt": "[b]SRI 4.11. · popodne · izmjene još nisu objavljene[/b]\ndolazak 12:45 · kraj 18:45\n0. 12:45  Primij. matem.\n1. 13:35  Primij. matem.\n2. 14:25  Mikroupravljači\n3. 15:15  Mikroupravljači\n4. 16:20  Hrvatski\n5. 17:10  Engleski\n6. 18:00  Matematika"
+  "tekst": "ČET 5.11. · popodne · izmjene još nisu objavljene\ndolazak 12:45 · kraj 19:35\n0. 12:45  Skriptni i web\n1. 13:35  Skriptni i web\n2. 14:25  Računalne mreže\n3. 15:15  TZK\n4. 16:20  TZK\n5. 17:10  Hrvatski\n6. 18:00  Sat razrednika\n7. 18:50  Engleski",
+  "tekst_kwgt": "[b]ČET 5.11. · popodne · izmjene još nisu objavljene[/b]\ndolazak 12:45 · kraj 19:35\n0. 12:45  Skriptni i web\n1. 13:35  Skriptni i web\n2. 14:25  Računalne mreže\n3. 15:15  TZK\n4. 16:20  TZK\n5. 17:10  Hrvatski\n6. 18:00  Sat razrednika\n7. 18:50  Engleski"
  },
- "oba_kwgt": "[b]UTO 3.11. · popodne[/b]\ndolazak 12:45 · kraj 19:35\n0. 12:45  Objektno prog.\n1. 13:35  Objektno prog.\n2. 14:25  Matematika\n3. 15:15  Matematika\n4. 16:20  Operacijski sust.\n5. 17:10  Operacijski sust.\n6. 18:00  Hrvatski\n7. 18:50  Engleski\n\n[b]SRI 4.11. · popodne · izmjene još nisu objavljene[/b]\ndolazak 12:45 · kraj 18:45\n0. 12:45  Primij. matem.\n1. 13:35  Primij. matem.\n2. 14:25  Mikroupravljači\n3. 15:15  Mikroupravljači\n4. 16:20  Hrvatski\n5. 17:10  Engleski\n6. 18:00  Matematika",
+ "oba_kwgt": "[b]SRI 4.11. · popodne[/b]\ndolazak 12:45 · kraj 18:45\n0. 12:45  Primij. matem.\n1. 13:35  Primij. matem.\n2. 14:25  Mikroupravljači\n3. 15:15  Mikroupravljači\n4. 16:20  Hrvatski\n5. 17:10  Engleski\n6. 18:00  Matematika\n\n[b]ČET 5.11. · popodne · izmjene još nisu objavljene[/b]\ndolazak 12:45 · kraj 19:35\n0. 12:45  Skriptni i web\n1. 13:35  Skriptni i web\n2. 14:25  Računalne mreže\n3. 15:15  TZK\n4. 16:20  TZK\n5. 17:10  Hrvatski\n6. 18:00  Sat razrednika\n7. 18:50  Engleski",
  "greska": null,
- "verzija": "c1980c6bc7",
- "azurirano": "02.11. 22:43"
+ "verzija": "3797e41f20",
+ "azurirano": "03.11. 19:40"
 }
