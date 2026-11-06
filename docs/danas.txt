@@ -1,21 +1,23 @@
-PET 6.11. · popodne
-dolazak 13:35 · kraj 17:55
-0. 12:45  ---
-1. 13:35  Multimedija
-2. 14:25  Multimedija
-3. 15:15  ---
-4. 16:20  Računalne mreže
-5. 17:10  Građa računala
-
-PON 9.11. · ujutro · izmjene još nisu objavljene
-dolazak 8:20 · kraj 15:10
+PON 9.11. · ujutro · 3 izmj.
+dolazak 9:10 · kraj 14:20
 1.  7:30  ---
-2.  8:20  Operacijski sust.
+2.  8:20  --- (otpada OS)
 3.  9:10  Sat razrednika
 4. 10:15  Građa računala
 5. 11:05  ---
 6. 11:55  ---
-7. 12:45  Matematika
-8. 13:35  Fizika
-9. 14:25  Vjeronauk
-(ažurirano 05.11. 20:59)
+7. 12:45  Vjeronauk (umj. MAT)
+8. 13:35  Fizika · uč. 1-2
+9. 14:25  --- (otpada V)
+
+UTO 10.11. · ujutro · izmjene još nisu objavljene
+dolazak 7:30 · kraj 14:20
+1.  7:30  Matematika
+2.  8:20  Operacijski sust.
+3.  9:10  Hrvatski
+4. 10:15  TZK
+5. 11:05  TZK
+6. 11:55  Engleski
+7. 12:45  Multimedija
+8. 13:35  Multimedija
+(ažurirano 06.11. 20:14)
