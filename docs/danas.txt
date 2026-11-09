@@ -1,15 +1,3 @@
-PON 9.11. · ujutro · 3 izmj.
-dolazak 9:10 · kraj 14:20
-1.  7:30  ---
-2.  8:20  --- (otpada OS)
-3.  9:10  Sat razrednika
-4. 10:15  Građa računala
-5. 11:05  ---
-6. 11:55  ---
-7. 12:45  Vjeronauk (umj. MAT)
-8. 13:35  Fizika · uč. 1-2
-9. 14:25  --- (otpada V)
-
 UTO 10.11. · popodne · 2 izmj.
 dolazak 12:45 · kraj 19:35
 0. 12:45  Objektno prog.
@@ -20,4 +8,15 @@ dolazak 12:45 · kraj 19:35
 5. 17:10  Operacijski sust.
 6. 18:00  Hrvatski
 7. 18:50  Engleski
-(ažurirano 09.11. 13:40)
+
+SRI 11.11. · ujutro · izmjene još nisu objavljene
+dolazak 8:20 · kraj 14:20
+1.  7:30  ---
+2.  8:20  Građa računala
+3.  9:10  Engleski
+4. 10:15  Hrvatski
+5. 11:05  Računalne mreže
+6. 11:55  Računalne mreže
+7. 12:45  Mikroupravljači
+8. 13:35  Mikroupravljači
+(ažurirano 09.11. 23:43)
