@@ -102,14 +102,14 @@
  "tekst": "UTO 10.11. · popodne · 2 izmj.\ndolazak 12:45 · kraj 19:35\n0. 12:45  Objektno prog.\n1. 13:35  Hrvatski (umj. NOOP)\n2. 14:25  Sat razrednika (umj. MAT)\n3. 15:15  Matematika\n4. 16:20  Operacijski sust.\n5. 17:10  Operacijski sust.\n6. 18:00  Hrvatski\n7. 18:50  Engleski",
  "tekst_kwgt": "[b]UTO 10.11. · popodne · [c=#FF5252]2 izmj.[/c][/b]\ndolazak 12:45 · kraj 19:35\n0. 12:45  Objektno prog.\n1. 13:35  Hrvatski [c=#FF5252]- [s]NOOP[/s][/c]\n2. 14:25  Sat razrednika [c=#FF5252]- [s]MAT[/s][/c]\n3. 15:15  Matematika\n4. 16:20  Operacijski sust.\n5. 17:10  Operacijski sust.\n6. 18:00  Hrvatski\n7. 18:50  Engleski",
  "sljedeci": {
-  "dolazak": "8:20",
+  "dolazak": "9:10",
   "kraj": "14:20",
   "datum": "2026-11-11",
   "dan": "Srijeda",
   "datum_kratko": "SRI 11.11.",
   "smjena": "ujutro",
-  "izmjene_objavljene": false,
-  "broj_izmjena": 0,
+  "izmjene_objavljene": true,
+  "broj_izmjena": 2,
   "cijeli_dan": null,
   "skraceni_sati": false,
   "sati": [
@@ -119,8 +119,8 @@
     "do": "8:15",
     "predmet": null,
     "izvorno": null,
-    "izmjena": false,
-    "otpada": false,
+    "izmjena": true,
+    "otpada": true,
     "ucionica": null,
     "izvorna_kratica": null
    },
@@ -128,10 +128,10 @@
     "sat": 2,
     "od": "8:20",
     "do": "9:05",
-    "predmet": "Građa računala",
+    "predmet": null,
     "izvorno": "Građa računala",
-    "izmjena": false,
-    "otpada": false,
+    "izmjena": true,
+    "otpada": true,
     "ucionica": null,
     "izvorna_kratica": "GR"
    },
@@ -202,11 +202,11 @@
     "izvorna_kratica": "MIK"
    }
   ],
-  "tekst": "SRI 11.11. · ujutro · izmjene još nisu objavljene\ndolazak 8:20 · kraj 14:20\n1.  7:30  ---\n2.  8:20  Građa računala\n3.  9:10  Engleski\n4. 10:15  Hrvatski\n5. 11:05  Računalne mreže\n6. 11:55  Računalne mreže\n7. 12:45  Mikroupravljači\n8. 13:35  Mikroupravljači",
-  "tekst_kwgt": "[b]SRI 11.11. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 8:20 · kraj 14:20\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  Građa računala\n3.  9:10  Engleski\n4. 10:15  Hrvatski\n5. 11:05  Računalne mreže\n6. 11:55  Računalne mreže\n7. 12:45  Mikroupravljači\n8. 13:35  Mikroupravljači"
+  "tekst": "SRI 11.11. · ujutro · 2 izmj.\ndolazak 9:10 · kraj 14:20\n1.  7:30  --- (novo)\n2.  8:20  --- (otpada GR)\n3.  9:10  Engleski\n4. 10:15  Hrvatski\n5. 11:05  Računalne mreže\n6. 11:55  Računalne mreže\n7. 12:45  Mikroupravljači\n8. 13:35  Mikroupravljači",
+  "tekst_kwgt": "[b]SRI 11.11. · ujutro · [c=#FF5252]2 izmj.[/c][/b]\ndolazak 9:10 · kraj 14:20\n1.  7:30  [c=#FF5252]--- (novo)[/c]\n2.  8:20  [c=#FF5252]--- - [s]GR[/s][/c]\n3.  9:10  Engleski\n4. 10:15  Hrvatski\n5. 11:05  Računalne mreže\n6. 11:55  Računalne mreže\n7. 12:45  Mikroupravljači\n8. 13:35  Mikroupravljači"
  },
- "oba_kwgt": "[b]UTO 10.11. · popodne · [c=#FF5252]2 izmj.[/c][/b]\ndolazak 12:45 · kraj 19:35\n0. 12:45  Objektno prog.\n1. 13:35  Hrvatski [c=#FF5252]- [s]NOOP[/s][/c]\n2. 14:25  Sat razrednika [c=#FF5252]- [s]MAT[/s][/c]\n3. 15:15  Matematika\n4. 16:20  Operacijski sust.\n5. 17:10  Operacijski sust.\n6. 18:00  Hrvatski\n7. 18:50  Engleski\n\n[b]SRI 11.11. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 8:20 · kraj 14:20\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  Građa računala\n3.  9:10  Engleski\n4. 10:15  Hrvatski\n5. 11:05  Računalne mreže\n6. 11:55  Računalne mreže\n7. 12:45  Mikroupravljači\n8. 13:35  Mikroupravljači",
+ "oba_kwgt": "[b]UTO 10.11. · popodne · [c=#FF5252]2 izmj.[/c][/b]\ndolazak 12:45 · kraj 19:35\n0. 12:45  Objektno prog.\n1. 13:35  Hrvatski [c=#FF5252]- [s]NOOP[/s][/c]\n2. 14:25  Sat razrednika [c=#FF5252]- [s]MAT[/s][/c]\n3. 15:15  Matematika\n4. 16:20  Operacijski sust.\n5. 17:10  Operacijski sust.\n6. 18:00  Hrvatski\n7. 18:50  Engleski\n\n[b]SRI 11.11. · ujutro · [c=#FF5252]2 izmj.[/c][/b]\ndolazak 9:10 · kraj 14:20\n1.  7:30  [c=#FF5252]--- (novo)[/c]\n2.  8:20  [c=#FF5252]--- - [s]GR[/s][/c]\n3.  9:10  Engleski\n4. 10:15  Hrvatski\n5. 11:05  Računalne mreže\n6. 11:55  Računalne mreže\n7. 12:45  Mikroupravljači\n8. 13:35  Mikroupravljači",
  "greska": null,
- "verzija": "7cc6b369ad",
- "azurirano": "09.11. 23:43"
+ "verzija": "d98d53b503",
+ "azurirano": "10.11. 13:20"
 }
