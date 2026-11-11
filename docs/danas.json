@@ -102,111 +102,111 @@
  "tekst": "SRI 11.11. · ujutro · 2 izmj.\ndolazak 9:10 · kraj 14:20\n1.  7:30  --- (novo)\n2.  8:20  --- (otpada GR)\n3.  9:10  Engleski\n4. 10:15  Hrvatski\n5. 11:05  Računalne mreže\n6. 11:55  Računalne mreže\n7. 12:45  Mikroupravljači\n8. 13:35  Mikroupravljači",
  "tekst_kwgt": "[b]SRI 11.11. · ujutro · [c=#FF5252]2 izmj.[/c][/b]\ndolazak 9:10 · kraj 14:20\n1.  7:30  [c=#FF5252]--- (novo)[/c]\n2.  8:20  [c=#FF5252]--- - [s]GR[/s][/c]\n3.  9:10  Engleski\n4. 10:15  Hrvatski\n5. 11:05  Računalne mreže\n6. 11:55  Računalne mreže\n7. 12:45  Mikroupravljači\n8. 13:35  Mikroupravljači",
  "sljedeci": {
-  "dolazak": "9:10",
-  "kraj": "14:20",
+  "dolazak": "12:45",
+  "kraj": "19:35",
   "datum": "2026-11-12",
   "dan": "Četvrtak",
   "datum_kratko": "ČET 12.11.",
-  "smjena": "ujutro",
-  "izmjene_objavljene": false,
-  "broj_izmjena": 0,
+  "smjena": "popodne",
+  "izmjene_objavljene": true,
+  "broj_izmjena": 2,
   "cijeli_dan": null,
   "skraceni_sati": false,
   "sati": [
    {
-    "sat": 1,
-    "od": "7:30",
-    "do": "8:15",
-    "predmet": null,
-    "izvorno": null,
+    "sat": 0,
+    "od": "12:45",
+    "do": "13:30",
+    "predmet": "Skriptni i web",
+    "izvorno": "Skriptni i web",
     "izmjena": false,
     "otpada": false,
     "ucionica": null,
-    "izvorna_kratica": null
+    "izvorna_kratica": "SJWP"
+   },
+   {
+    "sat": 1,
+    "od": "13:35",
+    "do": "14:20",
+    "predmet": "Skriptni i web",
+    "izvorno": "Skriptni i web",
+    "izmjena": false,
+    "otpada": false,
+    "ucionica": null,
+    "izvorna_kratica": "SJWP"
    },
    {
     "sat": 2,
-    "od": "8:20",
-    "do": "9:05",
-    "predmet": null,
-    "izvorno": null,
+    "od": "14:25",
+    "do": "15:10",
+    "predmet": "Računalne mreže",
+    "izvorno": "Računalne mreže",
     "izmjena": false,
     "otpada": false,
     "ucionica": null,
-    "izvorna_kratica": null
+    "izvorna_kratica": "RM"
    },
    {
     "sat": 3,
-    "od": "9:10",
-    "do": "9:55",
-    "predmet": "Engleski",
-    "izvorno": "Engleski",
+    "od": "15:15",
+    "do": "16:00",
+    "predmet": "TZK",
+    "izvorno": "TZK",
     "izmjena": false,
     "otpada": false,
     "ucionica": null,
-    "izvorna_kratica": "ENG"
+    "izvorna_kratica": "TZK"
    },
    {
     "sat": 4,
-    "od": "10:15",
-    "do": "11:00",
-    "predmet": "Baze podataka",
-    "izvorno": "Baze podataka",
-    "izmjena": false,
+    "od": "16:20",
+    "do": "17:05",
+    "predmet": "Hrvatski",
+    "izvorno": "TZK",
+    "izmjena": true,
     "otpada": false,
     "ucionica": null,
-    "izvorna_kratica": "DBP"
+    "izvorna_kratica": "TZK"
    },
    {
     "sat": 5,
-    "od": "11:05",
-    "do": "11:50",
-    "predmet": "Baze podataka",
-    "izvorno": "Baze podataka",
-    "izmjena": false,
+    "od": "17:10",
+    "do": "17:55",
+    "predmet": "Vjeronauk",
+    "izvorno": "Hrvatski",
+    "izmjena": true,
     "otpada": false,
     "ucionica": null,
-    "izvorna_kratica": "DBP"
+    "izvorna_kratica": "HRV"
    },
    {
     "sat": 6,
-    "od": "11:55",
-    "do": "12:40",
+    "od": "18:00",
+    "do": "18:45",
+    "predmet": "Sat razrednika",
+    "izvorno": "Sat razrednika",
+    "izmjena": false,
+    "otpada": false,
+    "ucionica": null,
+    "izvorna_kratica": "SR"
+   },
+   {
+    "sat": 7,
+    "od": "18:50",
+    "do": "19:35",
     "predmet": "Engleski",
     "izvorno": "Engleski",
     "izmjena": false,
     "otpada": false,
     "ucionica": null,
     "izvorna_kratica": "ENG"
-   },
-   {
-    "sat": 7,
-    "od": "12:45",
-    "do": "13:30",
-    "predmet": "Fizika",
-    "izvorno": "Fizika",
-    "izmjena": false,
-    "otpada": false,
-    "ucionica": null,
-    "izvorna_kratica": "FIZ"
-   },
-   {
-    "sat": 8,
-    "od": "13:35",
-    "do": "14:20",
-    "predmet": "Fizika",
-    "izvorno": "Fizika",
-    "izmjena": false,
-    "otpada": false,
-    "ucionica": null,
-    "izvorna_kratica": "FIZ"
    }
   ],
-  "tekst": "ČET 12.11. · ujutro · izmjene još nisu objavljene\ndolazak 9:10 · kraj 14:20\n1.  7:30  ---\n2.  8:20  ---\n3.  9:10  Engleski\n4. 10:15  Baze podataka\n5. 11:05  Baze podataka\n6. 11:55  Engleski\n7. 12:45  Fizika\n8. 13:35  Fizika",
-  "tekst_kwgt": "[b]ČET 12.11. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 9:10 · kraj 14:20\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  [c=#8A8A8A]---[/c]\n3.  9:10  Engleski\n4. 10:15  Baze podataka\n5. 11:05  Baze podataka\n6. 11:55  Engleski\n7. 12:45  Fizika\n8. 13:35  Fizika"
+  "tekst": "ČET 12.11. · popodne · 2 izmj.\ndolazak 12:45 · kraj 19:35\n0. 12:45  Skriptni i web\n1. 13:35  Skriptni i web\n2. 14:25  Računalne mreže\n3. 15:15  TZK\n4. 16:20  Hrvatski (umj. TZK)\n5. 17:10  Vjeronauk (umj. HRV)\n6. 18:00  Sat razrednika\n7. 18:50  Engleski",
+  "tekst_kwgt": "[b]ČET 12.11. · popodne · [c=#FF5252]2 izmj.[/c][/b]\ndolazak 12:45 · kraj 19:35\n0. 12:45  Skriptni i web\n1. 13:35  Skriptni i web\n2. 14:25  Računalne mreže\n3. 15:15  TZK\n4. 16:20  Hrvatski [c=#FF5252]- [s]TZK[/s][/c]\n5. 17:10  Vjeronauk [c=#FF5252]- [s]HRV[/s][/c]\n6. 18:00  Sat razrednika\n7. 18:50  Engleski"
  },
- "oba_kwgt": "[b]SRI 11.11. · ujutro · [c=#FF5252]2 izmj.[/c][/b]\ndolazak 9:10 · kraj 14:20\n1.  7:30  [c=#FF5252]--- (novo)[/c]\n2.  8:20  [c=#FF5252]--- - [s]GR[/s][/c]\n3.  9:10  Engleski\n4. 10:15  Hrvatski\n5. 11:05  Računalne mreže\n6. 11:55  Računalne mreže\n7. 12:45  Mikroupravljači\n8. 13:35  Mikroupravljači\n\n[b]ČET 12.11. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 9:10 · kraj 14:20\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  [c=#8A8A8A]---[/c]\n3.  9:10  Engleski\n4. 10:15  Baze podataka\n5. 11:05  Baze podataka\n6. 11:55  Engleski\n7. 12:45  Fizika\n8. 13:35  Fizika",
+ "oba_kwgt": "[b]SRI 11.11. · ujutro · [c=#FF5252]2 izmj.[/c][/b]\ndolazak 9:10 · kraj 14:20\n1.  7:30  [c=#FF5252]--- (novo)[/c]\n2.  8:20  [c=#FF5252]--- - [s]GR[/s][/c]\n3.  9:10  Engleski\n4. 10:15  Hrvatski\n5. 11:05  Računalne mreže\n6. 11:55  Računalne mreže\n7. 12:45  Mikroupravljači\n8. 13:35  Mikroupravljači\n\n[b]ČET 12.11. · popodne · [c=#FF5252]2 izmj.[/c][/b]\ndolazak 12:45 · kraj 19:35\n0. 12:45  Skriptni i web\n1. 13:35  Skriptni i web\n2. 14:25  Računalne mreže\n3. 15:15  TZK\n4. 16:20  Hrvatski [c=#FF5252]- [s]TZK[/s][/c]\n5. 17:10  Vjeronauk [c=#FF5252]- [s]HRV[/s][/c]\n6. 18:00  Sat razrednika\n7. 18:50  Engleski",
  "greska": null,
- "verzija": "c97a8ae4f5",
- "azurirano": "10.11. 20:55"
+ "verzija": "5cab9e64f7",
+ "azurirano": "11.11. 12:45"
 }
