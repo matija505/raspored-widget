@@ -1,14 +1,3 @@
-SRI 11.11. · ujutro · 2 izmj.
-dolazak 9:10 · kraj 14:20
-1.  7:30  --- (novo)
-2.  8:20  --- (otpada GR)
-3.  9:10  Engleski
-4. 10:15  Hrvatski
-5. 11:05  Računalne mreže
-6. 11:55  Računalne mreže
-7. 12:45  Mikroupravljači
-8. 13:35  Mikroupravljači
-
 ČET 12.11. · popodne · 2 izmj.
 dolazak 12:45 · kraj 19:35
 0. 12:45  Skriptni i web
@@ -19,4 +8,13 @@ dolazak 12:45 · kraj 19:35
 5. 17:10  Vjeronauk (umj. HRV)
 6. 18:00  Sat razrednika
 7. 18:50  Engleski
-(ažurirano 11.11. 12:45)
+
+PET 13.11. · ujutro · izmjene još nisu objavljene
+dolazak 7:30 · kraj 12:40
+1.  7:30  Matematika
+2.  8:20  Građa računala
+3.  9:10  Skriptni i web
+4. 10:15  Skriptni i web
+5. 11:05  Objektno prog.
+6. 11:55  Objektno prog.
+(ažurirano 11.11. 20:25)
