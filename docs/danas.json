@@ -102,14 +102,14 @@
  "tekst": "ČET 12.11. · popodne · 2 izmj.\ndolazak 12:45 · kraj 19:35\n0. 12:45  Skriptni i web\n1. 13:35  Skriptni i web\n2. 14:25  Računalne mreže\n3. 15:15  TZK\n4. 16:20  Hrvatski (umj. TZK)\n5. 17:10  Vjeronauk (umj. HRV)\n6. 18:00  Sat razrednika\n7. 18:50  Engleski",
  "tekst_kwgt": "[b]ČET 12.11. · popodne · [c=#FF5252]2 izmj.[/c][/b]\ndolazak 12:45 · kraj 19:35\n0. 12:45  Skriptni i web\n1. 13:35  Skriptni i web\n2. 14:25  Računalne mreže\n3. 15:15  TZK\n4. 16:20  Hrvatski [c=#FF5252]- [s]TZK[/s][/c]\n5. 17:10  Vjeronauk [c=#FF5252]- [s]HRV[/s][/c]\n6. 18:00  Sat razrednika\n7. 18:50  Engleski",
  "sljedeci": {
-  "dolazak": "7:30",
+  "dolazak": "8:20",
   "kraj": "12:40",
   "datum": "2026-11-13",
   "dan": "Petak",
   "datum_kratko": "PET 13.11.",
   "smjena": "ujutro",
-  "izmjene_objavljene": false,
-  "broj_izmjena": 0,
+  "izmjene_objavljene": true,
+  "broj_izmjena": 1,
   "cijeli_dan": null,
   "skraceni_sati": false,
   "sati": [
@@ -117,10 +117,10 @@
     "sat": 1,
     "od": "7:30",
     "do": "8:15",
-    "predmet": "Matematika",
+    "predmet": null,
     "izvorno": "Matematika",
-    "izmjena": false,
-    "otpada": false,
+    "izmjena": true,
+    "otpada": true,
     "ucionica": null,
     "izvorna_kratica": "MAT"
    },
@@ -180,11 +180,11 @@
     "izvorna_kratica": "NOOP"
    }
   ],
-  "tekst": "PET 13.11. · ujutro · izmjene još nisu objavljene\ndolazak 7:30 · kraj 12:40\n1.  7:30  Matematika\n2.  8:20  Građa računala\n3.  9:10  Skriptni i web\n4. 10:15  Skriptni i web\n5. 11:05  Objektno prog.\n6. 11:55  Objektno prog.",
-  "tekst_kwgt": "[b]PET 13.11. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 7:30 · kraj 12:40\n1.  7:30  Matematika\n2.  8:20  Građa računala\n3.  9:10  Skriptni i web\n4. 10:15  Skriptni i web\n5. 11:05  Objektno prog.\n6. 11:55  Objektno prog."
+  "tekst": "PET 13.11. · ujutro · 1 izmj.\ndolazak 8:20 · kraj 12:40\n1.  7:30  --- (otpada MAT)\n2.  8:20  Građa računala\n3.  9:10  Skriptni i web\n4. 10:15  Skriptni i web\n5. 11:05  Objektno prog.\n6. 11:55  Objektno prog.",
+  "tekst_kwgt": "[b]PET 13.11. · ujutro · [c=#FF5252]1 izmj.[/c][/b]\ndolazak 8:20 · kraj 12:40\n1.  7:30  [c=#FF5252]--- - [s]MAT[/s][/c]\n2.  8:20  Građa računala\n3.  9:10  Skriptni i web\n4. 10:15  Skriptni i web\n5. 11:05  Objektno prog.\n6. 11:55  Objektno prog."
  },
- "oba_kwgt": "[b]ČET 12.11. · popodne · [c=#FF5252]2 izmj.[/c][/b]\ndolazak 12:45 · kraj 19:35\n0. 12:45  Skriptni i web\n1. 13:35  Skriptni i web\n2. 14:25  Računalne mreže\n3. 15:15  TZK\n4. 16:20  Hrvatski [c=#FF5252]- [s]TZK[/s][/c]\n5. 17:10  Vjeronauk [c=#FF5252]- [s]HRV[/s][/c]\n6. 18:00  Sat razrednika\n7. 18:50  Engleski\n\n[b]PET 13.11. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 7:30 · kraj 12:40\n1.  7:30  Matematika\n2.  8:20  Građa računala\n3.  9:10  Skriptni i web\n4. 10:15  Skriptni i web\n5. 11:05  Objektno prog.\n6. 11:55  Objektno prog.",
+ "oba_kwgt": "[b]ČET 12.11. · popodne · [c=#FF5252]2 izmj.[/c][/b]\ndolazak 12:45 · kraj 19:35\n0. 12:45  Skriptni i web\n1. 13:35  Skriptni i web\n2. 14:25  Računalne mreže\n3. 15:15  TZK\n4. 16:20  Hrvatski [c=#FF5252]- [s]TZK[/s][/c]\n5. 17:10  Vjeronauk [c=#FF5252]- [s]HRV[/s][/c]\n6. 18:00  Sat razrednika\n7. 18:50  Engleski\n\n[b]PET 13.11. · ujutro · [c=#FF5252]1 izmj.[/c][/b]\ndolazak 8:20 · kraj 12:40\n1.  7:30  [c=#FF5252]--- - [s]MAT[/s][/c]\n2.  8:20  Građa računala\n3.  9:10  Skriptni i web\n4. 10:15  Skriptni i web\n5. 11:05  Objektno prog.\n6. 11:55  Objektno prog.",
  "greska": null,
- "verzija": "f70115051b",
- "azurirano": "11.11. 20:25"
+ "verzija": "3e92066552",
+ "azurirano": "12.11. 13:23"
 }
