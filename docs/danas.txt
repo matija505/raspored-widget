@@ -1,13 +1,4 @@
-PET 13.11. · ujutro · 1 izmj.
-dolazak 8:20 · kraj 12:40
-1.  7:30  --- (otpada MAT)
-2.  8:20  Građa računala
-3.  9:10  Skriptni i web
-4. 10:15  Skriptni i web
-5. 11:05  Objektno prog.
-6. 11:55  Objektno prog.
-
-PON 16.11. · popodne · izmjene još nisu objavljene
+PON 16.11. · popodne
 dolazak 12:45 · kraj 18:45
 0. 12:45  Fizika
 1. 13:35  Fizika
@@ -16,4 +7,15 @@ dolazak 12:45 · kraj 18:45
 4. 16:20  Građa računala
 5. 17:10  Građa računala
 6. 18:00  Vjeronauk
-(ažurirano 12.11. 21:17)
+
+UTO 17.11. · popodne · izmjene još nisu objavljene
+dolazak 12:45 · kraj 19:35
+0. 12:45  Objektno prog.
+1. 13:35  Objektno prog.
+2. 14:25  Matematika
+3. 15:15  Matematika
+4. 16:20  Operacijski sust.
+5. 17:10  Operacijski sust.
+6. 18:00  Hrvatski
+7. 18:50  Engleski
+(ažurirano 13.11. 12:59)
