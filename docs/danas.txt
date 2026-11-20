@@ -1,12 +1,3 @@
-PET 20.11. · ujutro · 1 izmj.
-dolazak 7:30 · kraj 12:40
-1.  7:30  Matematika
-2.  8:20  Građa računala
-3.  9:10  Skriptni i web
-4. 10:15  Matematika (umj. SJWP)
-5. 11:05  Objektno prog.
-6. 11:55  Objektno prog.
-
 PON 23.11. · ujutro · izmjene još nisu objavljene
 dolazak 8:20 · kraj 15:10
 1.  7:30  ---
@@ -18,4 +9,15 @@ dolazak 8:20 · kraj 15:10
 7. 12:45  Matematika
 8. 13:35  Fizika
 9. 14:25  Vjeronauk
-(ažurirano 19.11. 21:59)
+
+UTO 24.11. · ujutro · izmjene još nisu objavljene
+dolazak 7:30 · kraj 14:20
+1.  7:30  Matematika
+2.  8:20  Operacijski sust.
+3.  9:10  Hrvatski
+4. 10:15  TZK
+5. 11:05  TZK
+6. 11:55  Engleski
+7. 12:45  Multimedija
+8. 13:35  Multimedija
+(ažurirano 20.11. 13:39)
