@@ -1,13 +1,13 @@
-PON 23.11. · ujutro · izmjene još nisu objavljene
-dolazak 8:20 · kraj 15:10
+PON 23.11. · ujutro · 2 izmj.
+dolazak 9:10 · kraj 15:10
 1.  7:30  ---
-2.  8:20  Operacijski sust.
+2.  8:20  --- (otpada OS)
 3.  9:10  Sat razrednika
 4. 10:15  Građa računala
 5. 11:05  ---
 6. 11:55  ---
-7. 12:45  Matematika
-8. 13:35  Fizika
+7. 12:45  Fizika (umj. MAT)
+8. 13:35  Fizika · uč. 1-2
 9. 14:25  Vjeronauk
 
 UTO 24.11. · ujutro · izmjene još nisu objavljene
@@ -20,4 +20,4 @@ dolazak 7:30 · kraj 14:20
 6. 11:55  Engleski
 7. 12:45  Multimedija
 8. 13:35  Multimedija
-(ažurirano 20.11. 13:39)
+(ažurirano 20.11. 21:45)

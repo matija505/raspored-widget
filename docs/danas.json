@@ -1,12 +1,12 @@
 {
- "dolazak": "8:20",
+ "dolazak": "9:10",
  "kraj": "15:10",
  "datum": "2026-11-23",
  "dan": "Ponedjeljak",
  "datum_kratko": "PON 23.11.",
  "smjena": "ujutro",
- "izmjene_objavljene": false,
- "broj_izmjena": 0,
+ "izmjene_objavljene": true,
+ "broj_izmjena": 2,
  "cijeli_dan": null,
  "skraceni_sati": false,
  "sati": [
@@ -25,10 +25,10 @@
    "sat": 2,
    "od": "8:20",
    "do": "9:05",
-   "predmet": "Operacijski sust.",
+   "predmet": null,
    "izvorno": "Operacijski sust.",
-   "izmjena": false,
-   "otpada": false,
+   "izmjena": true,
+   "otpada": true,
    "ucionica": null,
    "izvorna_kratica": "OS"
   },
@@ -80,9 +80,9 @@
    "sat": 7,
    "od": "12:45",
    "do": "13:30",
-   "predmet": "Matematika",
+   "predmet": "Fizika",
    "izvorno": "Matematika",
-   "izmjena": false,
+   "izmjena": true,
    "otpada": false,
    "ucionica": null,
    "izvorna_kratica": "MAT"
@@ -95,7 +95,7 @@
    "izvorno": "Fizika",
    "izmjena": false,
    "otpada": false,
-   "ucionica": null,
+   "ucionica": "1-2",
    "izvorna_kratica": "FIZ"
   },
   {
@@ -110,8 +110,8 @@
    "izvorna_kratica": "V"
   }
  ],
- "tekst": "PON 23.11. · ujutro · izmjene još nisu objavljene\ndolazak 8:20 · kraj 15:10\n1.  7:30  ---\n2.  8:20  Operacijski sust.\n3.  9:10  Sat razrednika\n4. 10:15  Građa računala\n5. 11:05  ---\n6. 11:55  ---\n7. 12:45  Matematika\n8. 13:35  Fizika\n9. 14:25  Vjeronauk",
- "tekst_kwgt": "[b]PON 23.11. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 8:20 · kraj 15:10\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  Operacijski sust.\n3.  9:10  Sat razrednika\n4. 10:15  Građa računala\n5. 11:05  [c=#8A8A8A]---[/c]\n6. 11:55  [c=#8A8A8A]---[/c]\n7. 12:45  Matematika\n8. 13:35  Fizika\n9. 14:25  Vjeronauk",
+ "tekst": "PON 23.11. · ujutro · 2 izmj.\ndolazak 9:10 · kraj 15:10\n1.  7:30  ---\n2.  8:20  --- (otpada OS)\n3.  9:10  Sat razrednika\n4. 10:15  Građa računala\n5. 11:05  ---\n6. 11:55  ---\n7. 12:45  Fizika (umj. MAT)\n8. 13:35  Fizika · uč. 1-2\n9. 14:25  Vjeronauk",
+ "tekst_kwgt": "[b]PON 23.11. · ujutro · [c=#FF5252]2 izmj.[/c][/b]\ndolazak 9:10 · kraj 15:10\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  [c=#FF5252]--- - [s]OS[/s][/c]\n3.  9:10  Sat razrednika\n4. 10:15  Građa računala\n5. 11:05  [c=#8A8A8A]---[/c]\n6. 11:55  [c=#8A8A8A]---[/c]\n7. 12:45  Fizika [c=#FF5252]- [s]MAT[/s][/c]\n8. 13:35  Fizika · uč. 1-2\n9. 14:25  Vjeronauk",
  "sljedeci": {
   "dolazak": "7:30",
   "kraj": "14:20",
@@ -216,8 +216,8 @@
   "tekst": "UTO 24.11. · ujutro · izmjene još nisu objavljene\ndolazak 7:30 · kraj 14:20\n1.  7:30  Matematika\n2.  8:20  Operacijski sust.\n3.  9:10  Hrvatski\n4. 10:15  TZK\n5. 11:05  TZK\n6. 11:55  Engleski\n7. 12:45  Multimedija\n8. 13:35  Multimedija",
   "tekst_kwgt": "[b]UTO 24.11. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 7:30 · kraj 14:20\n1.  7:30  Matematika\n2.  8:20  Operacijski sust.\n3.  9:10  Hrvatski\n4. 10:15  TZK\n5. 11:05  TZK\n6. 11:55  Engleski\n7. 12:45  Multimedija\n8. 13:35  Multimedija"
  },
- "oba_kwgt": "[b]PON 23.11. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 8:20 · kraj 15:10\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  Operacijski sust.\n3.  9:10  Sat razrednika\n4. 10:15  Građa računala\n5. 11:05  [c=#8A8A8A]---[/c]\n6. 11:55  [c=#8A8A8A]---[/c]\n7. 12:45  Matematika\n8. 13:35  Fizika\n9. 14:25  Vjeronauk\n\n[b]UTO 24.11. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 7:30 · kraj 14:20\n1.  7:30  Matematika\n2.  8:20  Operacijski sust.\n3.  9:10  Hrvatski\n4. 10:15  TZK\n5. 11:05  TZK\n6. 11:55  Engleski\n7. 12:45  Multimedija\n8. 13:35  Multimedija",
+ "oba_kwgt": "[b]PON 23.11. · ujutro · [c=#FF5252]2 izmj.[/c][/b]\ndolazak 9:10 · kraj 15:10\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  [c=#FF5252]--- - [s]OS[/s][/c]\n3.  9:10  Sat razrednika\n4. 10:15  Građa računala\n5. 11:05  [c=#8A8A8A]---[/c]\n6. 11:55  [c=#8A8A8A]---[/c]\n7. 12:45  Fizika [c=#FF5252]- [s]MAT[/s][/c]\n8. 13:35  Fizika · uč. 1-2\n9. 14:25  Vjeronauk\n\n[b]UTO 24.11. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 7:30 · kraj 14:20\n1.  7:30  Matematika\n2.  8:20  Operacijski sust.\n3.  9:10  Hrvatski\n4. 10:15  TZK\n5. 11:05  TZK\n6. 11:55  Engleski\n7. 12:45  Multimedija\n8. 13:35  Multimedija",
  "greska": null,
- "verzija": "96881fac49",
- "azurirano": "20.11. 13:39"
+ "verzija": "2802bd2ac8",
+ "azurirano": "20.11. 21:45"
 }
