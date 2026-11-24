@@ -1,22 +1,22 @@
-UTO 24.11. · ujutro · 3 izmj.
+SRI 25.11. · ujutro · 3 izmj.
 dolazak 9:10 · kraj 14:20
-1.  7:30  --- (otpada MAT)
-2.  8:20  --- (otpada OS)
-3.  9:10  Hrvatski
-4. 10:15  TZK
-5. 11:05  TZK
-6. 11:55  Matematika (umj. ENG)
-7. 12:45  Multimedija
-8. 13:35  Multimedija
-
-SRI 25.11. · ujutro · izmjene još nisu objavljene
-dolazak 8:20 · kraj 14:20
-1.  7:30  ---
-2.  8:20  Građa računala
-3.  9:10  Engleski
+1.  7:30  --- (novo)
+2.  8:20  --- (otpada GR)
+3.  9:10  Građa računala (umj. ENG)
 4. 10:15  Hrvatski
 5. 11:05  Računalne mreže
 6. 11:55  Računalne mreže
 7. 12:45  Mikroupravljači
 8. 13:35  Mikroupravljači
-(ažurirano 23.11. 15:14)
+
+ČET 26.11. · ujutro · izmjene još nisu objavljene
+dolazak 9:10 · kraj 14:20
+1.  7:30  ---
+2.  8:20  ---
+3.  9:10  Engleski
+4. 10:15  Baze podataka
+5. 11:05  Baze podataka
+6. 11:55  Engleski
+7. 12:45  Fizika
+8. 13:35  Fizika
+(ažurirano 24.11. 15:40)
