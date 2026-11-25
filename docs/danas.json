@@ -1,9 +1,9 @@
 {
  "dolazak": "9:10",
  "kraj": "14:20",
- "datum": "2026-11-25",
- "dan": "Srijeda",
- "datum_kratko": "SRI 25.11.",
+ "datum": "2026-11-26",
+ "dan": "Četvrtak",
+ "datum_kratko": "ČET 26.11.",
  "smjena": "ujutro",
  "izmjene_objavljene": true,
  "broj_izmjena": 3,
@@ -16,8 +16,8 @@
    "do": "8:15",
    "predmet": null,
    "izvorno": null,
-   "izmjena": true,
-   "otpada": true,
+   "izmjena": false,
+   "otpada": false,
    "ucionica": null,
    "izvorna_kratica": null
   },
@@ -26,19 +26,19 @@
    "od": "8:20",
    "do": "9:05",
    "predmet": null,
-   "izvorno": "Građa računala",
-   "izmjena": true,
-   "otpada": true,
+   "izvorno": null,
+   "izmjena": false,
+   "otpada": false,
    "ucionica": null,
-   "izvorna_kratica": "GR"
+   "izvorna_kratica": null
   },
   {
    "sat": 3,
    "od": "9:10",
    "do": "9:55",
-   "predmet": "Građa računala",
+   "predmet": "Engleski",
    "izvorno": "Engleski",
-   "izmjena": true,
+   "izmjena": false,
    "otpada": false,
    "ucionica": null,
    "izvorna_kratica": "ENG"
@@ -47,66 +47,66 @@
    "sat": 4,
    "od": "10:15",
    "do": "11:00",
-   "predmet": "Hrvatski",
-   "izvorno": "Hrvatski",
-   "izmjena": false,
+   "predmet": "Vjeronauk",
+   "izvorno": "Baze podataka",
+   "izmjena": true,
    "otpada": false,
    "ucionica": null,
-   "izvorna_kratica": "HRV"
+   "izvorna_kratica": "DBP"
   },
   {
    "sat": 5,
    "od": "11:05",
    "do": "11:50",
    "predmet": "Računalne mreže",
-   "izvorno": "Računalne mreže",
-   "izmjena": false,
+   "izvorno": "Baze podataka",
+   "izmjena": true,
    "otpada": false,
    "ucionica": null,
-   "izvorna_kratica": "RM"
+   "izvorna_kratica": "DBP"
   },
   {
    "sat": 6,
    "od": "11:55",
    "do": "12:40",
-   "predmet": "Računalne mreže",
-   "izvorno": "Računalne mreže",
-   "izmjena": false,
+   "predmet": "DIOIS",
+   "izvorno": "Engleski",
+   "izmjena": true,
    "otpada": false,
    "ucionica": null,
-   "izvorna_kratica": "RM"
+   "izvorna_kratica": "ENG"
   },
   {
    "sat": 7,
    "od": "12:45",
    "do": "13:30",
-   "predmet": "Mikroupravljači",
-   "izvorno": "Mikroupravljači",
+   "predmet": "Fizika",
+   "izvorno": "Fizika",
    "izmjena": false,
    "otpada": false,
    "ucionica": null,
-   "izvorna_kratica": "MIK"
+   "izvorna_kratica": "FIZ"
   },
   {
    "sat": 8,
    "od": "13:35",
    "do": "14:20",
-   "predmet": "Mikroupravljači",
-   "izvorno": "Mikroupravljači",
+   "predmet": "Fizika",
+   "izvorno": "Fizika",
    "izmjena": false,
    "otpada": false,
    "ucionica": null,
-   "izvorna_kratica": "MIK"
+   "izvorna_kratica": "FIZ"
   }
  ],
- "tekst": "SRI 25.11. · ujutro · 3 izmj.\ndolazak 9:10 · kraj 14:20\n1.  7:30  --- (novo)\n2.  8:20  --- (otpada GR)\n3.  9:10  Građa računala (umj. ENG)\n4. 10:15  Hrvatski\n5. 11:05  Računalne mreže\n6. 11:55  Računalne mreže\n7. 12:45  Mikroupravljači\n8. 13:35  Mikroupravljači",
- "tekst_kwgt": "[b]SRI 25.11. · ujutro · [c=#FF5252]3 izmj.[/c][/b]\ndolazak 9:10 · kraj 14:20\n1.  7:30  [c=#FF5252]--- (novo)[/c]\n2.  8:20  [c=#FF5252]--- - [s]GR[/s][/c]\n3.  9:10  Građa računala [c=#FF5252]- [s]ENG[/s][/c]\n4. 10:15  Hrvatski\n5. 11:05  Računalne mreže\n6. 11:55  Računalne mreže\n7. 12:45  Mikroupravljači\n8. 13:35  Mikroupravljači",
+ "tekst": "ČET 26.11. · ujutro · 3 izmj.\ndolazak 9:10 · kraj 14:20\n1.  7:30  ---\n2.  8:20  ---\n3.  9:10  Engleski\n4. 10:15  Vjeronauk (umj. DBP)\n5. 11:05  Računalne mreže (umj. DBP)\n6. 11:55  DIOIS (umj. ENG)\n7. 12:45  Fizika\n8. 13:35  Fizika",
+ "tekst_kwgt": "[b]ČET 26.11. · ujutro · [c=#FF5252]3 izmj.[/c][/b]\ndolazak 9:10 · kraj 14:20\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  [c=#8A8A8A]---[/c]\n3.  9:10  Engleski\n4. 10:15  Vjeronauk [c=#FF5252]- [s]DBP[/s][/c]\n5. 11:05  Računalne mreže [c=#FF5252]- [s]DBP[/s][/c]\n6. 11:55  DIOIS [c=#FF5252]- [s]ENG[/s][/c]\n7. 12:45  Fizika\n8. 13:35  Fizika",
  "sljedeci": {
-  "dolazak": "9:10",
-  "kraj": "14:20",
-  "datum": "2026-11-26",
-  "dan": "Četvrtak",
-  "datum_kratko": "ČET 26.11.",
+  "dolazak": "7:30",
+  "kraj": "12:40",
+  "datum": "2026-11-27",
+  "dan": "Petak",
+  "datum_kratko": "PET 27.11.",
   "smjena": "ujutro",
   "izmjene_objavljene": false,
   "broj_izmjena": 0,
@@ -117,96 +117,74 @@
     "sat": 1,
     "od": "7:30",
     "do": "8:15",
-    "predmet": null,
-    "izvorno": null,
+    "predmet": "Matematika",
+    "izvorno": "Matematika",
     "izmjena": false,
     "otpada": false,
     "ucionica": null,
-    "izvorna_kratica": null
+    "izvorna_kratica": "MAT"
    },
    {
     "sat": 2,
     "od": "8:20",
     "do": "9:05",
-    "predmet": null,
-    "izvorno": null,
+    "predmet": "Građa računala",
+    "izvorno": "Građa računala",
     "izmjena": false,
     "otpada": false,
     "ucionica": null,
-    "izvorna_kratica": null
+    "izvorna_kratica": "GR"
    },
    {
     "sat": 3,
     "od": "9:10",
     "do": "9:55",
-    "predmet": "Engleski",
-    "izvorno": "Engleski",
+    "predmet": "Skriptni i web",
+    "izvorno": "Skriptni i web",
     "izmjena": false,
     "otpada": false,
     "ucionica": null,
-    "izvorna_kratica": "ENG"
+    "izvorna_kratica": "SJWP"
    },
    {
     "sat": 4,
     "od": "10:15",
     "do": "11:00",
-    "predmet": "Baze podataka",
-    "izvorno": "Baze podataka",
+    "predmet": "Skriptni i web",
+    "izvorno": "Skriptni i web",
     "izmjena": false,
     "otpada": false,
     "ucionica": null,
-    "izvorna_kratica": "DBP"
+    "izvorna_kratica": "SJWP"
    },
    {
     "sat": 5,
     "od": "11:05",
     "do": "11:50",
-    "predmet": "Baze podataka",
-    "izvorno": "Baze podataka",
+    "predmet": "Objektno prog.",
+    "izvorno": "Objektno prog.",
     "izmjena": false,
     "otpada": false,
     "ucionica": null,
-    "izvorna_kratica": "DBP"
+    "izvorna_kratica": "NOOP"
    },
    {
     "sat": 6,
     "od": "11:55",
     "do": "12:40",
-    "predmet": "Engleski",
-    "izvorno": "Engleski",
+    "predmet": "Objektno prog.",
+    "izvorno": "Objektno prog.",
     "izmjena": false,
     "otpada": false,
     "ucionica": null,
-    "izvorna_kratica": "ENG"
-   },
-   {
-    "sat": 7,
-    "od": "12:45",
-    "do": "13:30",
-    "predmet": "Fizika",
-    "izvorno": "Fizika",
-    "izmjena": false,
-    "otpada": false,
-    "ucionica": null,
-    "izvorna_kratica": "FIZ"
-   },
-   {
-    "sat": 8,
-    "od": "13:35",
-    "do": "14:20",
-    "predmet": "Fizika",
-    "izvorno": "Fizika",
-    "izmjena": false,
-    "otpada": false,
-    "ucionica": null,
-    "izvorna_kratica": "FIZ"
+    "izvorna_kratica": "NOOP"
    }
   ],
-  "tekst": "ČET 26.11. · ujutro · izmjene još nisu objavljene\ndolazak 9:10 · kraj 14:20\n1.  7:30  ---\n2.  8:20  ---\n3.  9:10  Engleski\n4. 10:15  Baze podataka\n5. 11:05  Baze podataka\n6. 11:55  Engleski\n7. 12:45  Fizika\n8. 13:35  Fizika",
-  "tekst_kwgt": "[b]ČET 26.11. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 9:10 · kraj 14:20\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  [c=#8A8A8A]---[/c]\n3.  9:10  Engleski\n4. 10:15  Baze podataka\n5. 11:05  Baze podataka\n6. 11:55  Engleski\n7. 12:45  Fizika\n8. 13:35  Fizika"
+  "tekst": "PET 27.11. · ujutro · izmjene još nisu objavljene\ndolazak 7:30 · kraj 12:40\n1.  7:30  Matematika\n2.  8:20  Građa računala\n3.  9:10  Skriptni i web\n4. 10:15  Skriptni i web\n5. 11:05  Objektno prog.\n6. 11:55  Objektno prog.",
+  "tekst_kwgt": "[b]PET 27.11. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 7:30 · kraj 12:40\n1.  7:30  Matematika\n2.  8:20  Građa računala\n3.  9:10  Skriptni i web\n4. 10:15  Skriptni i web\n5. 11:05  Objektno prog.\n6. 11:55  Objektno prog."
  },
- "oba_kwgt": "[b]SRI 25.11. · ujutro · [c=#FF5252]3 izmj.[/c][/b]\ndolazak 9:10 · kraj 14:20\n1.  7:30  [c=#FF5252]--- (novo)[/c]\n2.  8:20  [c=#FF5252]--- - [s]GR[/s][/c]\n3.  9:10  Građa računala [c=#FF5252]- [s]ENG[/s][/c]\n4. 10:15  Hrvatski\n5. 11:05  Računalne mreže\n6. 11:55  Računalne mreže\n7. 12:45  Mikroupravljači\n8. 13:35  Mikroupravljači\n\n[b]ČET 26.11. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 9:10 · kraj 14:20\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  [c=#8A8A8A]---[/c]\n3.  9:10  Engleski\n4. 10:15  Baze podataka\n5. 11:05  Baze podataka\n6. 11:55  Engleski\n7. 12:45  Fizika\n8. 13:35  Fizika",
+ "oba_kwgt": "[b]ČET 26.11. · ujutro · [c=#FF5252]3 izmj.[/c][/b]\ndolazak 9:10 · kraj 14:20\n1.  7:30  [c=#8A8A8A]---[/c]\n2.  8:20  [c=#8A8A8A]---[/c]\n3.  9:10  Engleski\n4. 10:15  Vjeronauk [c=#FF5252]- [s]DBP[/s][/c]\n5. 11:05  Računalne mreže [c=#FF5252]- [s]DBP[/s][/c]\n6. 11:55  DIOIS [c=#FF5252]- [s]ENG[/s][/c]\n7. 12:45  Fizika\n8. 13:35  Fizika\n\n[b]PET 27.11. · ujutro · izmjene još nisu objavljene[/b]\ndolazak 7:30 · kraj 12:40\n1.  7:30  Matematika\n2.  8:20  Građa računala\n3.  9:10  Skriptni i web\n4. 10:15  Skriptni i web\n5. 11:05  Objektno prog.\n6. 11:55  Objektno prog.",
  "greska": null,
- "verzija": "b37f3b36d3",
- "azurirano": "24.11. 15:40"
+ "verzija": "8c75fdbdd2",
+ "azurirano": "25.11. 15:01"
 }

@@ -1,22 +1,20 @@
-SRI 25.11. · ujutro · 3 izmj.
-dolazak 9:10 · kraj 14:20
-1.  7:30  --- (novo)
-2.  8:20  --- (otpada GR)
-3.  9:10  Građa računala (umj. ENG)
-4. 10:15  Hrvatski
-5. 11:05  Računalne mreže
-6. 11:55  Računalne mreže
-7. 12:45  Mikroupravljači
-8. 13:35  Mikroupravljači
-
-ČET 26.11. · ujutro · izmjene još nisu objavljene
+ČET 26.11. · ujutro · 3 izmj.
 dolazak 9:10 · kraj 14:20
 1.  7:30  ---
 2.  8:20  ---
 3.  9:10  Engleski
-4. 10:15  Baze podataka
-5. 11:05  Baze podataka
-6. 11:55  Engleski
+4. 10:15  Vjeronauk (umj. DBP)
+5. 11:05  Računalne mreže (umj. DBP)
+6. 11:55  DIOIS (umj. ENG)
 7. 12:45  Fizika
 8. 13:35  Fizika
-(ažurirano 24.11. 15:40)
+
+PET 27.11. · ujutro · izmjene još nisu objavljene
+dolazak 7:30 · kraj 12:40
+1.  7:30  Matematika
+2.  8:20  Građa računala
+3.  9:10  Skriptni i web
+4. 10:15  Skriptni i web
+5. 11:05  Objektno prog.
+6. 11:55  Objektno prog.
+(ažurirano 25.11. 15:01)
